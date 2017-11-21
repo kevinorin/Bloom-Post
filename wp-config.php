@@ -61,7 +61,7 @@ if ( ! defined( 'WP_DEFAULT_THEME' ) ) {
 
 /** Disallow anything that creates, deletes, or updates core, plugin, or theme files. Files in uploads are excepted. */
 if ( ! defined( 'DISALLOW_FILE_MODS' ) ) {
-  define( 'DISALLOW_FILE_MODS', true );
+  define( 'DISALLOW_FILE_MODS', false );
 }
 
 /** Defines functionality related WordPress constants. */
