@@ -93,7 +93,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'bloomp6_bloom2017');
+define('DB_NAME', 'bloomp6_dev');
 
 /** MySQL database username */
 define('DB_USER', 'bloomp6_devuser');
