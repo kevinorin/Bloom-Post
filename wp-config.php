@@ -5,22 +5,22 @@ if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
 
 /** The name of the database for WordPress. */
 if ( ! defined( 'DB_NAME' ) ) {
-  define( 'DB_NAME', '' );
+  define( 'DB_NAME', 'bloomp6_dev' );
 }
 
 /** MySQL database user name. */
 if ( ! defined( 'DB_USER' ) ) {
-  define( 'DB_USER', '' );
+  define( 'DB_USER', 'bloomp6_devuser' );
 }
 
 /** MySQL database password. */
 if ( ! defined( 'DB_PASSWORD' ) ) {
-  define( 'DB_PASSWORD', '' );
+  define( 'DB_PASSWORD', '2}{hdDl$0?fp' );
 }
 
 /** MySQL host name. */
 if ( ! defined( 'DB_HOST' ) ) {
-  define( 'DB_HOST', '127.0.0.1' );
+  define( 'DB_HOST', 'localhost' );
 }
 
 /** WordPress localized language. Defaults to 'en_EN'. */
@@ -91,18 +91,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'bloomp6_dev');
-
-/** MySQL database username */
-define('DB_USER', 'bloomp6_devuser');
-
-/** MySQL database password */
-define('DB_PASSWORD', '2}{hdDl$0?fp');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
