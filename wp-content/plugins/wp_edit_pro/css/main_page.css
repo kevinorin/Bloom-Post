@@ -1,0 +1,614 @@
+/*************************
+Glowing Buttons
+*************************/
+@keyframes glowing {
+    0% { background-color: #FF0000; }
+    50% { background-color: #FFA500; }
+    100% { background-color: #FF0000; }
+}
+
+#wpep_submit_cancel_network {
+	animation: glowing 2000ms infinite;
+	color: white;
+}
+
+.clear {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+
+/*************************
+Adjust div info message box
+*************************/
+
+div.wpep_info {
+	
+	border-left-color: blue;
+}
+
+/*************************
+Page metaboxes
+*************************/
+
+.main_container {
+	
+	border: 1px solid #CCC;
+	border-radius: 0 0 10px 10px;
+	margin: 20px 20px 0 0;
+	padding: 0 20px 20px 20px;
+	
+	background: #EFF6F9;
+}
+
+/*************************
+Postbox fix (add border and dropshadow to postboxes)
+*************************/
+
+.postbox {
+	
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+	box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+}
+
+
+/*************************
+Editor messages
+*************************/
+
+.wpep_main_editor_message {
+	
+	border: 2px solid green;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	background-color: #F9F9F9;
+}
+
+
+/*************************
+Tooltips
+*************************/
+
+/* Buttons tooltips */
+.ui-tooltip {
+    padding: 0 8px;
+}
+.data_tooltip_title {
+	margin: 5px;
+}
+
+/* Option tooltips */
+span.tooltips {
+	position: relative;
+	display: inline;
+}
+span.tooltips span {
+	position: absolute;
+	width:140px;
+	color: #FFFFFF;
+	background: #000000;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	visibility: hidden;
+	border-radius: 6px;
+}
+span.tooltips span:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -8px;
+	width: 0; height: 0;
+	border-top: 8px solid #000000;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+span:hover.tooltips span {
+	visibility: visible;
+	opacity: 0.8;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -76px;
+	z-index: 999;
+}
+
+
+/*************************
+Buttons tab
+*************************/
+
+/* Sortable rows */
+#inside_button_hover > div > div:hover {  /* Button hover */
+	border: 1px solid #FC94CC;
+	border-radius: 5px;
+	background: #FFF2F9;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(233,186,245,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(233,186,245,1);
+	box-shadow: 0px 0px 20px 0px rgba(233,186,245,1);
+}
+.sortable {  /* Button row containers */
+	width: 100%;
+	min-height: 42px;
+	margin-bottom: 10px;
+	overflow: auto;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+	box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+}
+.sortable > div {  /* Main individual buttons */
+	float: left; 
+	margin: 5px 0 5px 4px;
+	cursor: move;
+	border-radius: 5px;
+	padding: 5px;
+	width: auto;
+	min-width: 20px;
+	min-height: 20px;
+}
+.sortable > div > span { 
+	text-align: center;
+	display: block;
+}
+.ui-sortable-helper {  /* Pink highlight container */
+	width: auto !important;
+	height: auto !important;
+	padding-right: 0px !important;
+	border: 1px solid #FC94CC;
+	border-radius: 5px;
+	background: #FFF2F9;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(233,186,245,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(233,186,245,1);
+	box-shadow: 0px 0px 20px 0px rgba(233,186,245,1);
+}
+.sortable_placeholder {  /* Blue placeholder container */
+	background: #D9F7FC !important;
+	opacity: 0.8 !important;
+	border: 1px solid #72E7F9 !important;
+	border-radius: 5px !important;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(184,206,245,1) !important;
+	-moz-box-shadow: 0px 0px 20px 0px rgba(184,206,245,1) !important;
+	box-shadow: 0px 0px 20px 0px rgba(184,206,245,1) !important;
+}
+.sortable_multiselect > div {  /* Pink highlight container individual buttons */
+	float: left; 
+	margin: 0 4px 0 0;
+	cursor: move;
+	border-radius: 5px;
+	padding: 5px;
+	width: auto;
+	min-width: 20px;
+	min-height: 20px;
+	position: relative;
+}
+.ui-state-active-button {  /* Active buttons */
+	border: 1px solid #FC94CC !important;
+	border-radius: 5px;
+	background: #FFFED6 !important;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(249, 247, 99,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(249, 247, 99,1);
+	box-shadow: 0px 0px 10px 0px rgba(249, 247, 99,1);
+}
+
+/* Capabilities table */
+#sort_capabilities tbody tr:hover { 
+	cursor: move; 
+	background-color: #ECF2F2; 
+}
+.table_aligned {
+    table-layout: fixed;
+    width: 100%;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.buttons_view_type {
+	padding-top: 5px;
+}
+.buttons_view_type:hover {
+	cursor: pointer;
+}
+
+.dashicons-sort {
+	margin-right: 10px;
+}
+
+
+/*************************
+Configuration tab
+*************************/
+#wpep_showhide_tmce_table > tbody > tr:hover {
+	
+	background: #D9F7FC;
+	box-shadow: 0 0 5px #9ecaed;
+	border-radius: 5px;
+}
+.change_button_hover {
+	
+	background-color: #DEF7E2 !important;
+	box-shadow: 0 0 5px #3AAA4B !important;
+	border-radius: 5px !important;
+}
+td.names > input {
+	
+	width: 100%;
+}
+.added_value {
+	
+	width: 100%;
+}
+.wpep_config_hilite {
+	
+	background-color: #EBFCE9;
+}
+
+
+/*************************
+Posts tab
+*************************/
+
+#wpep_scripts_editor, #wpep_styles_editor {
+	
+	height: 100px;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+}
+
+
+/*************************
+Fonts tab
+*************************/
+
+/* Google fonts */
+#google_fonts_placeholder {
+	
+	display: block;
+	
+	background: #F7F7F7;
+	width: 220px;
+	min-height: 70px;
+	text-align: center;
+	
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+#active_font_list {
+	
+	display:block;
+	float:left;
+	margin-right:100px;
+}
+#google_fonts_trashbin {
+	
+	display:block;
+	float:left;
+}
+#trash_bin_wrapper {
+	
+	margin-top:12px;
+	display:block;
+	width:280px;
+	height:70px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+#trash_bin_wrapper.ui-state-active {
+	
+	-moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+#google_font_trash {
+	
+	display: block;
+	width: 64px;
+	height: 64px;
+	background-image: url('images/trash_bin.png');
+	float:left;
+}
+.active_font {
+	
+	display: inline-block;
+	cursor: move;
+	width:200px;
+	height:20px;
+	border:1px solid black;
+	margin:3px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:5px;
+	background-color:#E1E1E1;
+}
+.google_active_font_title {
+	
+	font-weight: bold;
+}
+
+/* Custom Fonts */
+#fileList {
+	padding: 5px 20px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	display: inline-block;
+	min-width: 20%;
+}
+.fileListLi {
+	color: green;
+}
+
+.delete_custom_font {
+	border:1px solid #f00;
+	background-color:#FED8D6;
+	margin-left:10px;
+	padding: 2px 5px;
+}
+.delete_custom_font:hover {
+	border:1px solid #000;
+	background-color:#C00;
+	color: #FFF;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.custom_style_all_error {
+	color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 5px 20px;
+	background-color: #FFF9F9;
+}
+.custom_style_all_success {
+	color: green;
+	border: 1px solid green;
+	border-radius: 5px;
+	padding: 5px 20px;
+	background-color: #F3FEF3;
+}
+
+
+
+/*************************
+Styles tab
+*************************/
+input[type="radio"] {
+	margin-left:10px;
+	margin-right:2px;
+}
+#new_style_form > div > input[type="text"] {
+	width:80%;
+}
+#clear_form {
+	margin-left:20px;
+}
+
+
+#float_table_left {
+	display:block;
+	float:left;
+	width:40%;
+	padding:20px;
+	margin-right:10%;
+	
+	-moz-box-shadow:    inset 0 0 5px #CCC;
+    -webkit-box-shadow: inset 0 0 5px #CCC;
+    box-shadow:         inset 0 0 5px #CCC;
+}
+#float_table_info_left {
+	display:block;
+	float:left;
+	width:45%;
+}
+
+.action_edit {
+	display:inline-block;
+	padding:1px 10px;
+	border-radius:5px;
+}
+.edit_style {
+	border:1px solid #87560E;
+	background-color:#FBDAAE;
+	margin-right:10px;
+}
+.delete_style {
+	border:1px solid #f00;
+	background-color:#FED8D6;
+}
+.edit_style:hover {
+	border:1px solid #000;
+	background-color:#DE8C12;
+	color: #FFF;
+	cursor:pointer;
+}
+.delete_style:hover {
+	border:1px solid #000;
+	background-color:#C00;
+	color: #FFF;
+	cursor:pointer;
+}
+
+
+/*************************
+Snidgets tab
+*************************/
+#snidgets_active_message_table div.tablenav {
+	
+	height: 0px;
+}
+
+
+/*************************
+Bootstrap Tables
+*************************/
+table {
+max-width: 100%;
+}
+ 
+th {
+text-align: left;
+}
+ 
+.table {
+width: 100%;
+margin-bottom: 20px;
+}
+ 
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.428571429;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+ 
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+	font-size: 14px;
+}
+ 
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+}
+ 
+.table > tbody + tbody {
+	border-top: 2px solid #ddd;
+}
+ 
+.table .table {
+	background-color: #fff;
+}
+ 
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+	padding: 5px;
+}
+ 
+.table-bordered {
+	border: 1px solid #ddd;
+}
+ 
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+border: 1px solid #ddd;
+}
+ 
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+	border-bottom-width: 2px;
+}
+ 
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+	background-color: #eaeaea;
+}
+ 
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+	background-color: #f5f5f5;
+}
+
+
+/*************************
+jQuery theme adjustments
+*************************/
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	font-weight: 600;
+}
+.ui-widget {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+
+/*************************
+Bonus page
+*************************/
+.bonus_row {
+	border: 1px solid #F3F3F3;
+}
+.bonus_row_title {
+	font-weight: bold;
+	font-size: 16px;
+}
+.bonus_col {
+	padding: 5px;
+}
+.bonus_col_1 {
+	float: left; width: 50%;
+}
+.bonus_col_2 {
+	float: left; width: 10%; text-align: center;
+}
+.bonus_installed {
+	color: green;
+}
+.bonus_not_installed {
+	margin-right: 20px;
+}
+
+
+
+/* Mobile adjustments for styles tab */
+@media screen and (max-width: 1094px) {
+    #float_table_left {
+        width: 90%;
+		margin-bottom: 20px;
+    }
+	#float_table_info_left {
+		width: 90%;
+	}
+	.edit_style {
+		margin-bottom: 5px;
+	}
+}
+
+/* Mobile adjustments for buttons tab */
+@media only screen and (min-width: 1200px) {
+    .main_buttons_container_float {
+		float: left;
+		width: 60%;
+		margin-right: 5%;
+    }
+    .side_buttons_options {
+		float: left;
+		width: 30%;
+	}
+	.sortable { 
+		width: 100%;
+	}
+}
+
+/* Columns used in user specific tab (for roles) */
+@media all and ( min-width: 600px ) {
+
+  /* set col widths */
+  .col-2-3 {
+    width: 64%;
+	float: left;
+  }
+  .col-1-2 {
+    width: 48%;
+	float: left;
+  }
+  .col-1-3 {
+    width: 30%;
+	float: left;
+  }
+  .col-1-4 {
+    width: 22%;
+	float: left;
+	margin-bottom: 5px;
+  }
+  .col-1-8 {
+    width: 10%;
+	float: left;
+  }
+}

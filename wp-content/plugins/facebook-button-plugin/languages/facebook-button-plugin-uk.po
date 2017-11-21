@@ -1,0 +1,629 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: facebook-button-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-10 12:20+0300\n"
+"PO-Revision-Date: 2017-07-20 13:00+0300\n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <plugin@bestwebsoft.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: facebook-button-plugin.php:35 facebook-button-plugin.php:36
+#: facebook-button-plugin.php:176 includes/class-fcbkbttn-settings.php:181
+msgid "Facebook Button Settings"
+msgstr "Налаштування Facebook Button"
+
+#: facebook-button-plugin.php:36 facebook-button-plugin.php:382
+#: facebook-button-plugin.php:396 includes/class-fcbkbttn-settings.php:23
+msgid "Settings"
+msgstr "Налаштування"
+
+#: facebook-button-plugin.php:42
+msgid "Upgrade to Pro"
+msgstr "Оновитися до Pro"
+
+#: facebook-button-plugin.php:177
+msgid "Please, enable JavaScript in Your browser."
+msgstr "Будь ласка, активуйте JavaScript у Вашому браузері."
+
+#: facebook-button-plugin.php:275
+msgid "Add Facebook buttons to your page or post"
+msgstr "Додати кнопки Facebook на вашу сторінку або запис"
+
+#: facebook-button-plugin.php:397
+msgid "FAQ"
+msgstr "FAQ"
+
+#: facebook-button-plugin.php:398
+msgid "Support"
+msgstr "Підтримка"
+
+#: includes/class-fcbkbttn-settings.php:25
+msgid "Display"
+msgstr "Відображення"
+
+#: includes/class-fcbkbttn-settings.php:27
+msgid "Misc"
+msgstr "Різне"
+
+#: includes/class-fcbkbttn-settings.php:28
+msgid "Custom Code"
+msgstr "Користувацький код"
+
+#: includes/class-fcbkbttn-settings.php:30
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: includes/class-fcbkbttn-settings.php:107
+msgid "Settings saved"
+msgstr "Налаштування збережені"
+
+#: includes/class-fcbkbttn-settings.php:136
+msgid "Error: File size must not exceed 32KB"
+msgstr "Помилка: Розмiр файлу не повинен перевищувати 32КБ"
+
+#: includes/class-fcbkbttn-settings.php:139
+msgid "Error: Invalid file type"
+msgstr "Помилка: Невірний тип файлу"
+
+#: includes/class-fcbkbttn-settings.php:145
+msgid "Upload successful."
+msgstr "Файл був завантажений успішно"
+
+#: includes/class-fcbkbttn-settings.php:153
+msgid "Error: failed to move file."
+msgstr "Помилка: не вдалося переміщення файлу."
+
+#: includes/class-fcbkbttn-settings.php:156
+msgid "Error: check image width or height."
+msgstr "Помилка: Перевірте ширину або висоту зображення."
+
+#: includes/class-fcbkbttn-settings.php:160
+msgid "Uploading Error: check image properties"
+msgstr "Помилка Завантаження: Перевірте властивості зображення"
+
+#: includes/class-fcbkbttn-settings.php:184
+msgid "General"
+msgstr "Загальне"
+
+#: includes/class-fcbkbttn-settings.php:187
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: includes/class-fcbkbttn-settings.php:190
+msgid "Profile URL"
+msgstr "URL профілю"
+
+#: includes/class-fcbkbttn-settings.php:191
+#: includes/class-fcbkbttn-settings.php:386
+msgid "Like"
+msgstr "Подобається"
+
+#: includes/class-fcbkbttn-settings.php:192
+msgid "Share"
+msgstr "Поширити"
+
+#: includes/class-fcbkbttn-settings.php:197
+msgid "Buttons Size"
+msgstr "Розмiр кнопок"
+
+#: includes/class-fcbkbttn-settings.php:200
+msgid "Small"
+msgstr "Великi"
+
+#: includes/class-fcbkbttn-settings.php:201
+msgid "Large"
+msgstr "Малi"
+
+#: includes/class-fcbkbttn-settings.php:206
+msgid "Buttons Position"
+msgstr "Розташування кнопок"
+
+#: includes/class-fcbkbttn-settings.php:211
+msgid "Before content"
+msgstr "Перед вмістом"
+
+#: includes/class-fcbkbttn-settings.php:216
+msgid "After content"
+msgstr "Після вмісту"
+
+#: includes/class-fcbkbttn-settings.php:222
+msgid "Language"
+msgstr "Мова"
+
+#: includes/class-fcbkbttn-settings.php:233
+msgid "Select the default language for Facebook button(-s)."
+msgstr "Оберіть мову за замовчуванням для кнопок Facebook."
+
+#: includes/class-fcbkbttn-settings.php:242
+#: includes/class-fcbkbttn-settings.php:245
+#: includes/class-fcbkbttn-settings.php:249
+msgid ""
+"Enable to switch language automatically on multilingual website using "
+"Multilanguage plugin."
+msgstr ""
+"Включити, щоб перемкнути мову автоматично на багатомовному сайті, "
+"використовуючи Multilanguage плагін."
+
+#: includes/class-fcbkbttn-settings.php:245
+#, php-format
+msgid "Activate %s"
+msgstr "Активувати %s"
+
+#: includes/class-fcbkbttn-settings.php:249
+msgid "Learn More"
+msgstr "Докладніше"
+
+#: includes/class-fcbkbttn-settings.php:254
+msgid "Excerpt"
+msgstr "Уривок"
+
+#: includes/class-fcbkbttn-settings.php:256
+msgid "Enable to display buttons in excerpt."
+msgstr "Ввімкнути для відображення кнопок в уривку."
+
+#: includes/class-fcbkbttn-settings.php:265
+#: includes/class-fcbkbttn-settings.php:441
+#: includes/class-fcbkbttn-settings.php:496
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/class-fcbkbttn-settings.php:269
+msgid "Meta Image"
+msgstr "Мета зображення"
+
+#: includes/class-fcbkbttn-settings.php:274
+msgid "Featured Image"
+msgstr "Головне зображення"
+
+#: includes/class-fcbkbttn-settings.php:278
+msgid "Custom Image"
+msgstr "Користувацьке зображення"
+
+#: includes/class-fcbkbttn-settings.php:278
+msgid "This image will be used for all posts"
+msgstr "Це зображення буде використовуватися для всiх записiв"
+
+#: includes/class-fcbkbttn-settings.php:285
+msgid "Meta Description"
+msgstr "Мета опис"
+
+#: includes/class-fcbkbttn-settings.php:289
+msgid ""
+"This description will be used for all pages and posts. Leave blank to use "
+"page description."
+msgstr ""
+"Цей опис буде використовуватися для всіх записів і сторінок. Залиште "
+"порожнім, щоб використовувати опис сторінки."
+
+#: includes/class-fcbkbttn-settings.php:298
+msgid "Profile URL Button"
+msgstr "Кнопка URL профілю"
+
+#: includes/class-fcbkbttn-settings.php:301
+msgid "Facebook ID or Username"
+msgstr "Facebook ID або Ім'я користувача"
+
+#: includes/class-fcbkbttn-settings.php:308
+msgid "Profile Button Image"
+msgstr "Зображення кнопки профілю"
+
+#: includes/class-fcbkbttn-settings.php:315
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: includes/class-fcbkbttn-settings.php:320
+msgid "Custom image"
+msgstr "Користувацьке зображення"
+
+#: includes/class-fcbkbttn-settings.php:324
+msgid ""
+"To use custom image, You need to setup permissions for upload directory of "
+"your site"
+msgstr ""
+"Для використання користувацького зображення Вам необхідно видати права "
+"доступу на папку завантажень на вашому сайті"
+
+#: includes/class-fcbkbttn-settings.php:331
+msgid "Current image"
+msgstr "Поточне зображення"
+
+#: includes/class-fcbkbttn-settings.php:339
+msgid ""
+"Image requirements: max image width:100px; max image height:40px; max image "
+"size:32Kb; image types:\"jpg\", \"jpeg\", \"png\"."
+msgstr ""
+"Вимоги до зображення: максимальна ширина зображення:100px; максимальна "
+"висота зображення: 40px; максимальний розмір зображення: 32Kb; типи "
+"зображеннь :\"jpg\", \"jpeg\", \"png\"."
+
+#: includes/class-fcbkbttn-settings.php:343
+msgid "Like&Share Buttons"
+msgstr "Кнопки \"Подобається\" та \"Поширити\""
+
+#: includes/class-fcbkbttn-settings.php:346
+msgid "Layout"
+msgstr "Вид"
+
+#: includes/class-fcbkbttn-settings.php:381
+msgid "Like Button Action"
+msgstr "Дія кнопки \"Подобається\""
+
+#: includes/class-fcbkbttn-settings.php:391
+msgid "Recommend"
+msgstr "Рекомендую"
+
+#: includes/class-fcbkbttn-settings.php:397
+msgid "Friends Faces"
+msgstr "Обличчя друзів"
+
+#: includes/class-fcbkbttn-settings.php:400
+msgid " Enable to show faces of your friends who submitted the button."
+msgstr "Включити, щоб показати обличчя своїх друзів, які натиснули кнопку."
+
+#: includes/class-fcbkbttn-settings.php:404
+msgid "Layout Width"
+msgstr "Ширина блоку"
+
+#: includes/class-fcbkbttn-settings.php:406
+msgid "px"
+msgstr "пікс"
+
+#: includes/class-fcbkbttn-settings.php:410
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/class-fcbkbttn-settings.php:415
+msgid "Light"
+msgstr "Світла"
+
+#: includes/class-fcbkbttn-settings.php:420
+msgid "Dark"
+msgstr "Темна"
+
+#: includes/class-fcbkbttn-settings.php:426
+msgid "Like Button HTML Tag"
+msgstr "HTML тег кнопки \"Подобається\""
+
+#: includes/class-fcbkbttn-settings.php:432
+#, php-format
+msgid "Tag %s can be used to improve website code validation."
+msgstr "Тег %s може бути використаний для поліпшення валідації коду сайту."
+
+#: includes/class-fcbkbttn-settings.php:445
+msgid "URL to Like"
+msgstr "URL кнопки \"Подобається\""
+
+#: includes/class-fcbkbttn-settings.php:447
+msgid "Leave blank to use a current page."
+msgstr "Залиште порожнім, щоб використовувати поточну сторінку."
+
+#: includes/class-fcbkbttn-settings.php:475
+msgid "Facebook Buttons Shortcode"
+msgstr "Шорткод кнопки Facebook"
+
+#: includes/class-fcbkbttn-settings.php:478
+msgid ""
+"Add Facebook button(-s) to your posts, pages, custom post types or widgets "
+"by using the following shortcode:"
+msgstr ""
+"Додати кнопки Facebook на ваші записи, сторінки, користувацькі типи записів "
+"або віджети за допомогою даного шорткода:"
+
+#: includes/class-fcbkbttn-settings.php:497
+msgid "Facebook Buttons Preview"
+msgstr "Попередній перегляд Facebook кнопок"
+
+#: includes/class-fcbkbttn-settings.php:512
+msgid "Display Settings"
+msgstr "Налаштування відображення"
+
+#: includes/class-fcbkbttn-settings.php:521
+msgid ""
+"Please choose the necessary post types (or single pages) where Facebook "
+"button will be displayed:"
+msgstr ""
+"Будь ласка, оберіть необхідні типи записів (чи сторінок), де буде "
+"відображатися кнопка Facebook"
+
+#: includes/class-fcbkbttn-settings.php:528
+msgid "Show URL for pages"
+msgstr "Відображати URL сторінок"
+
+#: includes/class-fcbkbttn-settings.php:534
+msgid "Example of site pages tree"
+msgstr "Приклад дерева сторінок сайту"
+
+#~ msgid "Error: File size > 32K"
+#~ msgstr "Помилка: Розмір файлу не повинен перевищувати 32Kб"
+
+#~ msgid "Example of site pages' tree"
+#~ msgstr "Приклад дерева сторінок сайту"
+
+#~ msgid "Example of the site's pages tree"
+#~ msgstr "Приклад дерева сторінок сайту"
+
+#~ msgid "Facebook Buttons Shortchode"
+#~ msgstr "Шорткод Facebook кнопок"
+
+#~ msgid "Facebook button Settings"
+#~ msgstr "Установки кнопок Facebook"
+
+#~ msgid "Friends faces"
+#~ msgstr "Обличчя друзів"
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Всі налаштування плагіну було скинуто до стандартних."
+
+#~ msgid "How to Use Step-by-step Instruction"
+#~ msgstr "Iнструкцiя з використання"
+
+#~ msgid "Extra settings"
+#~ msgstr "Додаткові налаштування"
+
+#~ msgid "Go PRO"
+#~ msgstr "Перейти на PRO версію"
+
+#~ msgid ""
+#~ "If you would like to add Facebook buttons to your page or post, please "
+#~ "use %s button"
+#~ msgstr ""
+#~ "Якщо ви хочете додати кнопки Facebook на вашу сторінку або пост, будь "
+#~ "ласка, використовуйте кнопку %s"
+
+#~ msgid ""
+#~ "You can add Facebook buttons to your page or post by clicking on %s "
+#~ "button in the content edit block using the Visual mode. If the button "
+#~ "isn't displayed, please use the shortcode %s"
+#~ msgstr ""
+#~ "Ви можете додати Facebook кнопки на вашу сторінку або пост, натиснувши на "
+#~ "кнопку %s в блоці редагування контенту в режимі Visual. Якщо кнопка не "
+#~ "відображається, будь ласка, використовуйте шорткод %s"
+
+#~ msgid "My Page"
+#~ msgstr "Моя сторінка"
+
+#~ msgid "Before"
+#~ msgstr "До"
+
+#~ msgid "After"
+#~ msgstr "Після"
+
+#~ msgid "Shortcode"
+#~ msgstr "Шорткод"
+
+#~ msgid "Facebook buttons language"
+#~ msgstr "Мова кнопок Facebook"
+
+#~ msgid "Use the current site language"
+#~ msgstr "Використовувати поточну мову сайту"
+
+#~ msgid "Using"
+#~ msgstr "Використовуючи"
+
+#~ msgid "Download"
+#~ msgstr "Завантажити"
+
+#~ msgid "Image"
+#~ msgstr "Зображення"
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr "Якщо ви перейдете на Pro версію, усі установки будуть збережені."
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Зробити доступними преміум-опції, перейшовши на Pro версію"
+
+#~ msgid "\"My page\" button image"
+#~ msgstr "Зображення кнопки \"Моя сторінка\""
+
+#~ msgid "Standard Facebook image"
+#~ msgstr "Стандартне зображення Facebook "
+
+#~ msgid "Custom Facebook image"
+#~ msgstr "Кастомне зображення Facebook"
+
+#~ msgid "Show faces"
+#~ msgstr "Показувати обличчя"
+
+#~ msgid "Color scheme"
+#~ msgstr "Кольорова схема"
+
+#~ msgid "Html tag for \"Like\" button"
+#~ msgstr "Html тег для кнопки \"Подобається\""
+
+#~ msgid "Use this tag to improve validation of your site"
+#~ msgstr "Використовуйте цей тег для поліпшення валідації вашого сайту"
+
+#~ msgid "\"Like\" for an entire site on every page:"
+#~ msgstr "\"Подобається\" для всього сайту на кожній сторінці"
+
+#~ msgid ""
+#~ "Notice: \"Like for the entire site\" option does not create an extra "
+#~ "button. This option merely allows your users to like the entire website "
+#~ "when this option is enabled, or a single post when this option is "
+#~ "disabled, when clicking the regular \"Like\" button."
+#~ msgstr ""
+#~ "Увага: опція  \"Подобається для всього сайту\" - не створює додаткову "
+#~ "кнопку. Ця опція дозволяє при кліку користувачами на стандартну кнопку "
+#~ "плагіна ставити \"Подобається\" усьому сайту , якщо ця опція увімкнена, "
+#~ "або ставити \"Подобається\" окремим постам, якщо опція вимкнена."
+
+#~ msgid "Save Changes"
+#~ msgstr "Зберегти зміни"
+
+#~ msgid "None"
+#~ msgstr "Не використовувати"
+
+#~ msgid "Custom description"
+#~ msgstr "Користувацький короткий опис"
+
+#~ msgid "Notice:"
+#~ msgstr "Нагадування:"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Налаштування плагіну було змінено. Для того, щоб зберегти ці зміни, не "
+#~ "забудьте нажати кнопку \"Зберегти зміни\"."
+
+#~ msgid "pixels"
+#~ msgstr "px"
+
+#~ msgid "Go"
+#~ msgstr "Перейти"
+
+#~ msgid "Are you sure you want to restore all settings by default?"
+#~ msgstr "Ви впевнені, що хочете скинути налаштування плагіну до стандартних?"
+
+#~ msgid "Yes, restore all settings"
+#~ msgstr "Так, скинути налаштування"
+
+#~ msgid "No, go back to the settings page"
+#~ msgstr "Ні, повернутись назад на сторінку налаштувань"
+
+#~ msgid "Restore all plugin settings to defaults"
+#~ msgstr "Скинути налаштування плагіну до стандартних"
+
+#~ msgid "Restore settings"
+#~ msgstr "Скинути налаштування"
+
+#~ msgid "Choose display settings:"
+#~ msgstr "Виберіть відображати установки:"
+
+#~ msgid "Facebook image:"
+#~ msgstr "Зображення Facebook :"
+
+#~ msgid "requires"
+#~ msgstr "потребує"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "чи вище, тому він був деактивований! Будь ласка оновіть WordPress та "
+#~ "спробуйте ще раз."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Повернутися до WordPress на"
+
+#~ msgid "Plugins page"
+#~ msgstr "Сторінку плагинів"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=https://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Виникли певні проблеми. Спробуйте ще раз пізніше. Якщо помилка виникатиме "
+#~ "знову, будь ласка, зверніться до нашої служби підтримки href=http://"
+#~ "support.bestwebsoft.com>BestWebSoft</a>. Просимо вибачення за незручності."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Ліцензійний ключ прив'язано до іншого сайту"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries. Please, "
+#~ "upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, Ви перевищили кількість доступних спроб на день. Будь ласка, "
+#~ "завантажте плагін вручну."
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Виникли проблеми під чаз розпакування zip-архіву. Будь ласка, завантажте "
+#~ "плагін вручну."
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Ваш сервер не підтримує ані ZipArchive, ані Phar. Будь ласка, завантажте "
+#~ "плагін вручну"
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Виникли проблеми під час завантаження zip-архіву. Будь ласка, завантажте "
+#~ "архів вручну."
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvienience."
+#~ msgstr ""
+#~ "Виникли певні проблеми. Спробуйте ще раз пізніше або завантажте плагін "
+#~ "вручну. Просимо вібачення за незручності."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Будь ласка, впишіть ваш ліцензійний ключ"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Якщо Вам сподобався наш плагін, ми будемо раді, якщо Ви оціните його у "
+#~ "п'ять зірочок на WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Оцініти плагін"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Якщо у вас є запитання, будь ласка, звертайтесь до нас"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr "Вітаємо! PRO версію плагіну успішно завантажено та активовано."
+
+#~ msgid "Please, go to"
+#~ msgstr "Будь ласка, перейдіть"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Вас буде перенаправлено автоматично через 5 секунд."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Ви можете завантажити та активувати"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "версію уього плагіну, якщо впишете ваш ліцензійний ключ."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr ""
+#~ "Ви можете знайти ваш ліцензійний ключ на вашій персональній сторінці у  "
+#~ "Client area, перейшовши за посиланням"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr ""
+#~ "(ім'я користувача - це електронна адреса, яку ви вказуєте при купівлі "
+#~ "продукту)."
+
+#~ msgid "Go!"
+#~ msgstr "Перейти!"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, Ви перевищили кількість доступних спроб на день. Будь ласка, "
+#~ "завантажте плагін вручну."
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>Facebook Like Button</strong> to "
+#~ "<strong>PRO</strong> version"
+#~ msgstr ""
+#~ "Час оновити ваш <strong>Facebook Like Button</strong> до <strong>PRO</"
+#~ "strong> версії!"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr "Розширити стандартний функціонал плагіну новими опціями."

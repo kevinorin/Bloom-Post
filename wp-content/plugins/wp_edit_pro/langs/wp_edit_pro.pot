@@ -1,0 +1,4896 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Edit Pro\n"
+"POT-Creation-Date: 2016-09-03 16:53-0400\n"
+"PO-Revision-Date: 2016-02-07 18:15-0500\n"
+"Last-Translator: \n"
+"Language-Team: Josh Lobe <joshlobe@joshlobe.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/qr_code.php:11
+msgid "WP Edit Pro QR Code"
+msgstr ""
+
+#: classes/qr_code.php:17 classes/qr_code.php:71
+msgid "QR Title:"
+msgstr ""
+
+#: classes/qr_code.php:22
+msgid "QR Content:"
+msgstr ""
+
+#: classes/qr_code.php:27
+msgid "Disable QR for this post/page:"
+msgstr ""
+
+#: classes/qr_code.php:30
+msgid "Disables QR only for this post/page."
+msgstr ""
+
+#: classes/qr_code.php:33
+msgid "Use Shortcode Instead"
+msgstr ""
+
+#: classes/qr_code.php:36
+msgid "Insert QR Code with a Shortcode. (Disables auto-insertion)"
+msgstr ""
+
+#: classes/qr_code.php:36
+msgid "Use Shortcode: [wpeditpro_qr_shortcode]"
+msgstr ""
+
+#: classes/qr_code.php:52
+msgid "WP Edit QR Code"
+msgstr ""
+
+#: classes/qr_code.php:53
+msgid "Use WP Edit QR Codes in a widget area."
+msgstr ""
+
+#: classes/qr_code.php:67
+msgid "Widget Title:"
+msgstr ""
+
+#: classes/qr_code.php:75
+msgid "QR Content Text:"
+msgstr ""
+
+#: classes/snidgets_class.php:32 classes/snidgets_class.php:173
+#: classes/snidgets_class.php:174
+msgid "WP Edit Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:33
+msgid "Select one of your \"WP Edit Snidgets\" and display in a widget area."
+msgstr ""
+
+#: classes/snidgets_class.php:67
+msgid "ADMINS ONLY NOTICE:"
+msgstr ""
+
+#: classes/snidgets_class.php:69
+#, php-format
+msgid ""
+"Please select a <a href=\"%s\">WP Edit Snidget</a> to show in this area."
+msgstr ""
+
+#: classes/snidgets_class.php:71
+msgid "No post found with ID "
+msgstr ""
+
+#: classes/snidgets_class.php:71
+#, php-format
+msgid ", please select an existing <a href=\"%s\">WP Edit Snidget</a>."
+msgstr ""
+
+#: classes/snidgets_class.php:113
+msgid "Admin Snidget Title"
+msgstr ""
+
+#: classes/snidgets_class.php:114
+msgid "Front-End Snidget Title"
+msgstr ""
+
+#: classes/snidgets_class.php:120
+msgid "You should first create at least 1 WP Edit Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:120
+msgid "here"
+msgstr ""
+
+#: classes/snidgets_class.php:125
+msgid "Admin Snidget Title:"
+msgstr ""
+
+#: classes/snidgets_class.php:129
+msgid "Front-End Snidget Title: (empty for no title)"
+msgstr ""
+
+#: classes/snidgets_class.php:133
+msgid "Snidget Content: (select post title)"
+msgstr ""
+
+#: classes/snidgets_class.php:135
+msgid "Select a WP Edit Snidget.."
+msgstr ""
+
+#: classes/snidgets_class.php:143
+msgid "Apply Content Filters: (such as shortcodes)"
+msgstr ""
+
+#: classes/snidgets_class.php:148
+#, php-format
+msgid "Create additional snidgets <a href=\"%s\">HERE</a>."
+msgstr ""
+
+#: classes/snidgets_class.php:175 classes/snidgets_class.php:176 main.php:533
+#: main.php:656 main.php:909
+msgid "Add New Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:177
+msgid "Edit Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:178
+msgid "New Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:179 main.php:532 main.php:655 main.php:908
+msgid "All Snidgets"
+msgstr ""
+
+#: classes/snidgets_class.php:180
+msgid "View  Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:181
+msgid "Search Snidgets"
+msgstr ""
+
+#: classes/snidgets_class.php:182
+msgid "No snidgets found"
+msgstr ""
+
+#: classes/snidgets_class.php:183
+msgid "No snidgets found in Trash"
+msgstr ""
+
+#: classes/snidgets_class.php:185 classes/snidgets_class.php:217
+msgid "WP Edit Snidgets"
+msgstr ""
+
+#: classes/snidgets_class.php:228
+#, php-format
+msgid ""
+"Build your snidgets here. Then, go to <a href=\"%s\">Appearance > Snidgets</"
+"a> and add them by snidget title."
+msgstr ""
+
+#: classes/snidgets_class.php:236
+#, php-format
+msgid "WP Edit Snidget updated. <a href=\"%s\">Manage Snidgets</a>"
+msgstr ""
+
+#: classes/snidgets_class.php:236 classes/snidgets_class.php:239
+msgid "WP Edit Snidget updated."
+msgstr ""
+
+#: classes/snidgets_class.php:237
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/snidgets_class.php:238
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/snidgets_class.php:240
+#, php-format
+msgid "WP Edit Snidget restored to revision from %s"
+msgstr ""
+
+#: classes/snidgets_class.php:241
+#, php-format
+msgid "WP Edit Snidget published. <a href=\"%s\">Manage Widgets</a>"
+msgstr ""
+
+#: classes/snidgets_class.php:241
+msgid "WP Edit Snidget published."
+msgstr ""
+
+#: classes/snidgets_class.php:242
+msgid "WP Edit Snidget saved."
+msgstr ""
+
+#: classes/snidgets_class.php:243
+#, php-format
+msgid "WP Edit Snidget submitted. <a href=\"%s\">Manage Snidgets</a>"
+msgstr ""
+
+#: classes/snidgets_class.php:243
+msgid "WP Edit Snidget submitted."
+msgstr ""
+
+#: classes/snidgets_class.php:244
+#, php-format
+msgid "WP Edit Snidget scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: classes/snidgets_class.php:244
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/snidgets_class.php:245
+#, php-format
+msgid "WP Edit Snidget draft updated. <a href=\"%s\">Manage Snidgets</a>"
+msgstr ""
+
+#: classes/snidgets_class.php:245
+msgid "WP Edit Snidget draft updated."
+msgstr ""
+
+#: classes/snidgets_class.php:318
+msgid "Add WP Edit Widget"
+msgstr ""
+
+#: classes/snidgets_class.php:318
+msgid "Add Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:331
+msgid "Please select a WP Edit Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:403 classes/snidgets_class.php:436
+msgid "Insert WP Edit Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:404
+msgid ""
+"Select a WP Edit Snidget below to add it to your post or page. Yes, they can "
+"be used in content areas too!"
+msgstr ""
+
+#: classes/snidgets_class.php:408
+msgid "Select a WP Edit Snidget"
+msgstr ""
+
+#: classes/snidgets_class.php:429
+msgid "No WP Edit Snidgets available"
+msgstr ""
+
+#: classes/snidgets_class.php:434
+msgid "Include Snidget Title when inserting widget into content?"
+msgstr ""
+
+#: classes/snidgets_class.php:435
+msgid "Insert as Shortcode"
+msgstr ""
+
+#: classes/snidgets_class.php:435
+msgid "Insert as Content"
+msgstr ""
+
+#: classes/snidgets_class.php:437
+msgid "Preview:"
+msgstr ""
+
+#: classes/snidgets_table.php:28 helpers/main_admin_menu_callback.php:2576
+#: helpers/main_admin_menu_callback.php:2587
+#: tmce_plugins/advlink/advlink.php:109
+msgid "Title"
+msgstr ""
+
+#: classes/snidgets_table.php:29
+msgid "Author"
+msgstr ""
+
+#: classes/snidgets_table.php:30 tmce_plugins/advlink/advlink.php:111
+msgid "Date"
+msgstr ""
+
+#: classes/snidgets_table.php:31 main.php:332
+#: tmce_plugins/advlink/advlink.php:56
+msgid "ID"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:13
+msgid "Button Container"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:32 helpers/buttons_tab_icons.php:33
+msgid "Bold"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:34
+msgid "<p>Apply <strong>bold</strong> to editor text.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:38 helpers/buttons_tab_icons.php:39
+msgid "Italic"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:40
+msgid "<p>Apply <em>italic</em> to editor text.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:44 helpers/buttons_tab_icons.php:45
+msgid "Strikethrough"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:46
+msgid "<p>Apply <strike>strikethrough</strike> to editor text.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:50 helpers/buttons_tab_icons.php:51
+msgid "Bullet List"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:52
+msgid "<p>Create a list of bulleted items.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:56 helpers/buttons_tab_icons.php:57
+msgid "Numbered List"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:58
+msgid "<p>Create a list of numbered items.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:62 helpers/buttons_tab_icons.php:63
+msgid "Blockquote"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:64
+msgid "<p>Insert a block level quotation.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:68 helpers/buttons_tab_icons.php:69
+msgid "Horizontal Rule"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:70
+msgid "<p>Insert a horizontal rule.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:74 helpers/buttons_tab_icons.php:75
+#: helpers/style_formats.php:1288
+msgid "Align Left"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:76
+msgid "<p>Align editor content to the left side of the editor.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:80 helpers/buttons_tab_icons.php:81
+msgid "Align Center"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:82
+msgid "<p>Align editor content to the center of the editor.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:86 helpers/buttons_tab_icons.php:87
+#: helpers/style_formats.php:1295
+msgid "Align Right"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:88
+msgid "<p>Align editor content to the right side of the editor.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:92 helpers/buttons_tab_icons.php:93
+msgid "Link"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:94
+msgid "<p>Insert a link around currently selected content.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:98 helpers/buttons_tab_icons.php:99
+msgid "Unlink"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:100
+msgid "<p>Remove the link around currently selected content.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:104 helpers/buttons_tab_icons.php:105
+msgid "More"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:106
+msgid ""
+"<p>Inserts the read_more() WordPress function; commonly used for excerpts.</"
+"p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:111 helpers/buttons_tab_icons.php:112
+msgid "Paragraph"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:113
+msgid ""
+"<p>Adds the Format Select dropdown button; used to select different styles.</"
+"p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:117 helpers/buttons_tab_icons.php:118
+msgid "Underline"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:119
+msgid "<p>Apply <u>underline</u> to editor text.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:123 helpers/buttons_tab_icons.php:124
+msgid "Align Full"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:125
+msgid "<p>Align selected content to full width of the page.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:129 helpers/buttons_tab_icons.php:130
+msgid "Foreground Color"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:131
+msgid ""
+"<p>Change the foreground color of selected content; commonly used to change "
+"text color.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:135 helpers/buttons_tab_icons.php:136
+msgid "Paste Text"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:137
+msgid "<p>Paste content as plain text.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:141 helpers/buttons_tab_icons.php:142
+msgid "Remove Format"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:143
+msgid "<p>Remove all current formatting from selected content.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:147 helpers/buttons_tab_icons.php:148
+msgid "Character Map"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:149
+msgid "<p>Display a characted map used for inserting special characters.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:153 helpers/buttons_tab_icons.php:154
+msgid "Outdent"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:155
+msgid "<p>Outdent selected content; primary used for paragraph elements.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:159 helpers/buttons_tab_icons.php:160
+msgid "Indent"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:161
+msgid "<p>Indent selected content; primary used for paragraph elements.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:165 helpers/buttons_tab_icons.php:166
+#: tmce_plugins/codemagic/codemagic.php:42
+msgid "Undo"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:167
+msgid "<p>Undo last editor action.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:171 helpers/buttons_tab_icons.php:172
+#: tmce_plugins/codemagic/codemagic.php:43
+msgid "Redo"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:173
+msgid "<p>Redo last editor action.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:177 helpers/buttons_tab_icons.php:178
+msgid "Help"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:179
+msgid ""
+"<p>Displays helpful information such as editor information and keyboard "
+"shortcuts.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:184 helpers/buttons_tab_icons.php:186
+msgid "Font Select"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:185
+msgid "Font Family"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:187
+msgid ""
+"<p>Apply various fonts to the editor selection.</p><p>Also displays fonts "
+"from Google Fonts options (if activated).</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:190 helpers/buttons_tab_icons.php:192
+msgid "Font Size Select"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:191
+msgid "Font Sizes"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:193
+msgid ""
+"<p>Apply various font sizes to the editor selection.</p><p>Default values "
+"can be switched from \"pt\" to \"px\" via the Editor tab.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:196 helpers/buttons_tab_icons.php:197
+#: helpers/buttons_tab_icons.php:198
+msgid "Formats"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:199
+msgid ""
+"<p>Displays quick access to formats like \"Headings\", \"Inline\", \"Blocks"
+"\" and \"Alignment\".</p><p>Any custom styles created (Styles Tab) will also "
+"be shown here.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:202 helpers/buttons_tab_icons.php:204
+msgid "Background Color Picker"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:205
+msgid ""
+"<p>Change the background color of selected content; commonly used for high-"
+"lighting text.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:209 helpers/buttons_tab_icons.php:210
+msgid "Media"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:211
+msgid ""
+"<p>Insert media from an external resource (by link); or embed media content "
+"into editor.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:214 helpers/buttons_tab_icons.php:216
+msgid "Text Direction Right to Left"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:217
+msgid ""
+"<p>Forces the text direction from right to left on selected block element.</"
+"p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:220 helpers/buttons_tab_icons.php:222
+msgid "Text Direction Left to Right"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:223
+msgid ""
+"<p>Forces the text direction from left to right on selected block element.</"
+"p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:226 helpers/buttons_tab_icons.php:228
+msgid "Tables"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:229
+msgid "<p>Insert, edit and modify html tables.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:232 helpers/buttons_tab_icons.php:234
+#: langs/wpep_tinymce_langs.php:49
+msgid "Anchor"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:235
+msgid "<p>Create an anchor link on the page.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:238 helpers/buttons_tab_icons.php:240
+msgid "HTML Code"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:241
+msgid ""
+"<p>Displays the html code of the editor content; in a popup window.</"
+"p><p>This can be helpful when editing code is necessary, but switching "
+"editor views is undesirable.</p><p>Also, the \"Code Magic\" button provides "
+"a much better interface.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:244 helpers/buttons_tab_icons.php:246
+#: langs/wpep_tinymce_langs.php:103
+msgid "Emoticons"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:247
+msgid "<p>Opens an overlay window with access to common emoticons.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:250 helpers/buttons_tab_icons.php:252
+msgid "Insert Date Time"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:253
+msgid ""
+"<p>Inserts the current date and time into the content editor.</p><p>The date "
+"format can be adjusted using the \"Configuration\" tab.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:257 helpers/buttons_tab_icons.php:258
+msgid "Page Break"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:259
+msgid ""
+"<p>Inserts a page break; which can created \"paged\" sections of the content."
+"</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:262 helpers/buttons_tab_icons.php:264
+#: langs/wpep_tinymce_langs.php:86 tmce_plugins/youTube3/youTube.php:60
+msgid "Preview"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:265
+msgid "<p>A quick preview of the editor content.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:268 helpers/buttons_tab_icons.php:270
+msgid "Print"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:271
+msgid "<p>Print the editor content directly to a printer.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:274 helpers/buttons_tab_icons.php:276
+#: tmce_plugins/codemagic/codemagic.php:44
+msgid "Search and Replace"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:277
+msgid ""
+"<p>Search and/or replace the editor content with specific characters.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:280 helpers/buttons_tab_icons.php:282
+msgid "Show Blocks"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:283
+msgid "<p>Shows all block level editor elements with a light border.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:286 helpers/buttons_tab_icons.php:288
+msgid "Subscript"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:289
+msgid ""
+"<p>Adds a <sub>subscript</sub> to selected editor content (mainly used with "
+"text).</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:292 helpers/buttons_tab_icons.php:294
+msgid "Superscript"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:295
+msgid ""
+"<p>Adds a <sup>superscript</sup> to selected editor content (mainly used "
+"with text).</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:299 helpers/buttons_tab_icons.php:300
+msgid "Image"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:301
+msgid "<p>Insert images (by link).</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:304 helpers/buttons_tab_icons.php:306
+msgid "Paragraph Tag"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:307
+msgid ""
+"<p>Insert paragraph tags (along with attributes); which will not be removed "
+"from the editor.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:310 helpers/buttons_tab_icons.php:312
+msgid "Line Break"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:313
+msgid ""
+"<p>Insert line breaks; which will not be removed from the editor.</p><p>This "
+"is done by adding a class of \"none\" to the tag.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:316 helpers/buttons_tab_icons.php:318
+msgid "MailTo Link"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:319
+msgid ""
+"<p>Turns an email address into an active mail link.</p><p>When clicked, it "
+"will open the users default mail client to send a message.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:322 helpers/buttons_tab_icons.php:324
+msgid "Lorem Ipsum"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:325
+msgid ""
+"<p>Esaily insert placeholder text into the editor.</p><p>Select from "
+"multiple languages; and choose the number of elements to add.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:328 helpers/buttons_tab_icons.php:330
+#: helpers/main_admin_menu_callback.php:1578
+msgid "Shortcodes"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:331
+msgid ""
+"<p>Gathers all available shortcodes and adds them to a dropdown list; for "
+"easy editor insertion.</p><p>Note: The shortcodes gathered here do not "
+"include any shortcode attributes.</p><p>If shortcode attributes are "
+"necessary, they will need to be entered into the shortcode manually.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:334 helpers/buttons_tab_icons.php:336
+#: langs/wpep_tinymce_langs.php:62
+msgid "Clker Images"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:337
+msgid "<p>Browse and insert images from the Clker.com website.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:340 helpers/buttons_tab_icons.php:342
+#: langs/wpep_tinymce_langs.php:56
+msgid "Clear Div"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:343
+msgid ""
+"<p>Clear editor divs. Selections include \"left\", \"right\" and \"both\".</"
+"p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:346 helpers/buttons_tab_icons.php:348
+#: langs/wpep_tinymce_langs.php:75
+msgid "Code Magic"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:349
+msgid ""
+"<p>An advanced html code editor; view and edit the html code from an overlay "
+"window.</p><p>Includes syntax highlighting; search and replace; and proper "
+"element spacing.</p><p>This is a great option when editing html code is "
+"necessary; but swtiching editor views is undesirable.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:352 helpers/buttons_tab_icons.php:354
+#: langs/wpep_tinymce_langs.php:20
+msgid "Accessibility Checker"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:355
+msgid "<p>Checks the editor content for accessibility by other devices.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:358 helpers/buttons_tab_icons.php:360
+#: langs/wpep_tinymce_langs.php:33
+msgid "Insert/Edit Advanced Link"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:361
+msgid ""
+"<p>Insert and edit links; along with various atttributes.</p><p>Populates "
+"with all posts and pages; so linking to current content is a one-click "
+"process.</p><p>Also includes javascript attributes (onclick, onmouseover, "
+"etc.); which can be used for executing javascript functions.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:364 helpers/buttons_tab_icons.php:366
+#: langs/wpep_tinymce_langs.php:24
+msgid "Advanced Horizontal Line"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:367
+msgid ""
+"<p>Modify various options of the horizontal line; like shadow and width.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:370 helpers/buttons_tab_icons.php:372
+#: langs/wpep_tinymce_langs.php:27
+msgid "Advanced Insert/Edit Image"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:373
+msgid ""
+"<p>Insert/Edit images with more control.</p><p>Define image attributes, "
+"image margin, image padding and image border.</p><p>Also includes javascript "
+"attributes (onclick, onmouseover, etc.); which can be used for executing "
+"javascript functions.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:377 helpers/buttons_tab_icons.php:378
+msgid "Format Painter"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:379
+msgid ""
+"<p>Copies styling from one element; and applies the same styling to another "
+"element.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:382 helpers/buttons_tab_icons.php:384
+msgid "Flickr Images"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:385
+msgid ""
+"<p>Browse and insert Flickr images without ever leaving the content editor.</"
+"p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:388 helpers/buttons_tab_icons.php:390
+#: langs/wpep_tinymce_langs.php:14
+msgid "Abbreviation"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:391
+msgid "<p>Add an abbreviation to selected editor content.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:394 helpers/buttons_tab_icons.php:396
+msgid "Image Map"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:397
+msgid ""
+"<p>Create an image map from an image.</p><p>Allows multiple \"hot spots\" on "
+"a single image.  Each \"hot spot\" can link to a different url.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:400 helpers/buttons_tab_icons.php:402
+msgid "Nonbreaking Space"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:403
+msgid ""
+"<p>Insert a nonbreaking space; which will not be removed from the editor.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:407 helpers/buttons_tab_icons.php:408
+#: helpers/main_admin_menu_callback.php:1789
+#: helpers/main_admin_menu_callback.php:1793 langs/wpep_tinymce_langs.php:83
+msgid "Column Shortcodes"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:409
+msgid "<p>A tool for easily inserting column shortcode templates.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:412 helpers/buttons_tab_icons.php:414
+msgid "HTML Tags"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:415
+msgid ""
+"<p>Select and insert an HTML tag with user-defined attributes (id, class, "
+"etc.).</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:418 helpers/buttons_tab_icons.php:420
+#: langs/wpep_tinymce_langs.php:98
+msgid "Dropbox"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:421
+msgid ""
+"<p>Link to files contained in a DropBox account.</p><p>Do not forget to set "
+"additional Dropbox settings under the Editor tab.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:431 helpers/buttons_tab_icons.php:433
+msgid "Advanced Bullet List"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:434
+msgid "<p>More options for inserting bulleted lists.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:437 helpers/buttons_tab_icons.php:439
+msgid "Advanced Number List"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:440
+msgid "<p>More options for inserting numbered lists.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:444
+msgid "Title not found"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:445
+msgid "<p>Content not found. Please report to the plugin developer.</p>"
+msgstr ""
+
+#: helpers/buttons_tab_icons.php:459
+msgid ""
+"There appears to be an error with the plugin options. Please either convert "
+"or reset the plugin options via the \"Database\" tab."
+msgstr ""
+
+#: helpers/license_page_callback.php:18
+msgid "Activation successful."
+msgstr ""
+
+#: helpers/license_page_callback.php:27
+msgid "Welcome to WP Edit Pro"
+msgstr ""
+
+#: helpers/license_page_callback.php:30
+msgid ""
+"Please enter the transaction ID below; then click \"Save License\" to "
+"continue."
+msgstr ""
+
+#: helpers/license_page_callback.php:32
+msgid ""
+"The transaction ID can be found in the \"Welcome Email\", sent after "
+"purchase."
+msgstr ""
+
+#: helpers/license_page_callback.php:36
+msgid ""
+"Trouble Activating? We can help! <a target=\"_blank\" href=\"https://"
+"wpeditpro.com/contact/\">Contact Us</a> for assistance."
+msgstr ""
+
+#: helpers/license_page_callback.php:43
+msgid "License Information"
+msgstr ""
+
+#: helpers/license_page_callback.php:55
+msgid "Transaction ID"
+msgstr ""
+
+#: helpers/license_page_callback.php:59
+msgid "Example:"
+msgstr ""
+
+#: helpers/license_page_callback.php:59
+msgid "5252331315781000C"
+msgstr ""
+
+#: helpers/license_page_callback.php:70
+msgid "Save License"
+msgstr ""
+
+#: helpers/license_page_callback.php:70
+msgid "Save license information and display Activation button."
+msgstr ""
+
+#: helpers/license_page_callback.php:72
+msgid "Manage License"
+msgstr ""
+
+#: helpers/license_page_callback.php:72
+msgid "Manage all site activations."
+msgstr ""
+
+#: helpers/license_page_callback.php:74
+msgid "Remove This Activation"
+msgstr ""
+
+#: helpers/license_page_callback.php:74
+msgid "Remove this site activation."
+msgstr ""
+
+#: helpers/license_page_callback.php:79
+msgid "License Status"
+msgstr ""
+
+#: helpers/license_page_callback.php:89
+msgid "Plugin Status"
+msgstr ""
+
+#: helpers/license_page_callback.php:96
+msgid "Active"
+msgstr ""
+
+#: helpers/license_page_callback.php:101
+msgid "Not Activated"
+msgstr ""
+
+#: helpers/license_page_callback.php:104
+msgid " - Single Site License"
+msgstr ""
+
+#: helpers/license_page_callback.php:105
+msgid " - Single Extended Site License"
+msgstr ""
+
+#: helpers/license_page_callback.php:106
+msgid " - Multi Site License"
+msgstr ""
+
+#: helpers/license_page_callback.php:107
+msgid " - Developer Site License"
+msgstr ""
+
+#: helpers/license_page_callback.php:115
+msgid "Purchase"
+msgstr ""
+
+#: helpers/license_page_callback.php:118
+msgid "Purchase WP Edit Pro"
+msgstr ""
+
+#: helpers/license_page_save.php:28
+msgid "Please enter the transaction ID and click \"Save License\" again."
+msgstr ""
+
+#: helpers/license_page_save.php:58
+msgid "Error Code:"
+msgstr ""
+
+#: helpers/license_page_save.php:60
+msgid "Error Message:"
+msgstr ""
+
+#: helpers/license_page_save.php:63 helpers/license_page_save.php:80
+msgid ""
+"The server is having trouble communicating with the activation script. "
+"Please contact us for assistance."
+msgstr ""
+
+#: helpers/license_page_save.php:78
+msgid "Error: This activation is not returning a valid object from the script."
+msgstr ""
+
+#: helpers/license_page_save.php:113
+msgid "The submitted transaction ID is not valid."
+msgstr ""
+
+#: helpers/license_page_save.php:115
+msgid "Please verify the transaction ID; then click \"Save License\" again."
+msgstr ""
+
+#: helpers/license_page_save.php:133
+msgid ""
+"Invalid License. This is a Single Site license; and is attempting to be "
+"network activated."
+msgstr ""
+
+#: helpers/license_page_save.php:135
+msgid ""
+"If you would like to network activate this plugin; an upgrade to a Multi or "
+"Developer license will be necessary."
+msgstr ""
+
+#: helpers/license_page_save.php:153
+msgid ""
+"This is a Single Site license; and has been activated the maximum number of "
+"times."
+msgstr ""
+
+#: helpers/license_page_save.php:155 helpers/license_page_save.php:174
+msgid ""
+"If you would like to use this plugin on more sites; an upgrade to a Multi or "
+"Developer license will be necessary."
+msgstr ""
+
+#: helpers/license_page_save.php:172
+msgid ""
+"This is a Single Site Extended license; and has been activated the maximum "
+"number of times."
+msgstr ""
+
+#: helpers/license_page_save.php:202
+msgid ""
+"This site activation has been successfully removed from our activations "
+"table."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:15
+#, php-format
+msgid "Currently editing options for network site with blog ID %s."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:16
+msgid ""
+"The plugin settings have adapted based on this option.  Some settings may be "
+"different; while other settings may be disabled entirely."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:17
+msgid ""
+"It is VERY important to cancel editing subsite options when finished; "
+"otherwise the plugin may not function properly."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:20
+#, php-format
+msgid "Cancel Editing Blog ID %s Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:34
+msgid ""
+"It looks like this may be the first time WP Edit Pro has been installed on "
+"this site."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:35
+msgid ""
+"The options from WP Edit (Free) can be converted to WP Edit Pro (if desired)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:36
+msgid "Otherwise; please click \"No Thanks\"."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:39
+msgid "Convert WP Edit Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:46
+msgid "No Thanks"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:50
+msgid ""
+"Converting options can be done anytime via the \"Database\" tab -> Convert "
+"Options."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:62
+msgid "Buttons"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:63
+msgid "Network"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:64
+msgid "Global"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:65
+msgid "Configuration"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:66
+msgid "General"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:67
+msgid "Posts/Pages"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:68
+msgid "Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:69
+msgid "Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:70
+#: helpers/main_admin_menu_callback.php:2469
+#: helpers/main_admin_menu_callback.php:2580
+#: helpers/main_admin_menu_callback.php:2591 main.php:2031
+msgid "Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:71
+#: helpers/main_admin_menu_callback.php:2672 main.php:690 main.php:942
+msgid "Snidgets"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:72
+#: helpers/main_admin_menu_callback.php:1116
+msgid "User"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:73
+msgid "Extras"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:74
+msgid "Database"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:75
+msgid "About"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:76
+msgid "Notes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:431
+msgid "WP Edit Pro Buttons"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:443
+#, php-format
+msgid "New editor for the %s WordPress user role."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:446
+#, php-format
+msgid "Editing the %s WordPress user role."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:449
+#, php-format
+msgid "New editor for the %s WordPress user capability."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:452
+#, php-format
+msgid "Editing the %s WordPress user capability."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:455
+#: helpers/main_admin_menu_callback.php:783
+#, php-format
+msgid "New editor for user %s."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:458
+#, php-format
+msgid "Editing the user editor for %s."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:461
+#: helpers/main_admin_menu_callback.php:799
+msgid "New editor for site visitors."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:464
+msgid "Editing the site visitor editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:467
+msgid ""
+"This is the main button configuration. This button configuration will be "
+"used if no other custom editor is applicable to the user."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:482
+msgid "Button Rows"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:505
+msgid "Save Buttons"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:506 tmce_plugins/advhr/advhr.php:55
+#: tmce_plugins/advimage/advimage.php:272 tmce_plugins/advlink/advlink.php:196
+#: tmce_plugins/codemagic/codemagic.php:60 tmce_plugins/youTube3/youTube.php:75
+#: tmce_plugins/youTube3/youTube.php:164
+msgid "Cancel"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:510
+#: helpers/main_admin_menu_callback.php:517
+#, php-format
+msgid "Save Role Buttons (%s)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:511
+#: helpers/main_admin_menu_callback.php:518
+#, php-format
+msgid "Cancel Editing Role (%s)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:524
+#: helpers/main_admin_menu_callback.php:531
+#, php-format
+msgid "Save Capability Buttons (%s)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:525
+#: helpers/main_admin_menu_callback.php:532
+#, php-format
+msgid "Cancel Editing Capability (%s)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:538
+#: helpers/main_admin_menu_callback.php:545
+#, php-format
+msgid "Save User Buttons (%s)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:539
+#: helpers/main_admin_menu_callback.php:546
+#, php-format
+msgid "Cancel Editing User (%s)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:552
+#: helpers/main_admin_menu_callback.php:559
+msgid "Save Visitor Buttons"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:553
+#: helpers/main_admin_menu_callback.php:560
+msgid "Cancel Editing Visitor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:578
+msgid "Quick select a saved custom editor to load for editing."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:579
+msgid ""
+"(These are the same editors as in the \"Created Editors\" section below)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:626
+msgid "Select Editor..."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:627
+#: helpers/main_admin_menu_callback.php:929
+msgid "Role Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:636
+msgid "No role editors found."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:640
+#: helpers/main_admin_menu_callback.php:930
+msgid "Capability Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:649
+msgid "No capability editors found."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:653
+#: helpers/main_admin_menu_callback.php:931
+msgid "User Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:661
+msgid "No user role editors found."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:665
+#: helpers/main_admin_menu_callback.php:670
+#: helpers/main_admin_menu_callback.php:932
+#: helpers/main_admin_menu_callback.php:1162
+msgid "Visitor Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:674
+msgid "No visitor editor found."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:679
+msgid "Load Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:689
+msgid "Reset Plugin Buttons."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:733
+msgid "Reset Buttons"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:748
+msgid "Current Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:759
+#, php-format
+msgid "A new editor is being created for the %s WordPress role."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:760
+#: helpers/main_admin_menu_callback.php:766
+#: helpers/main_admin_menu_callback.php:772
+#: helpers/main_admin_menu_callback.php:778
+#: helpers/main_admin_menu_callback.php:784
+#: helpers/main_admin_menu_callback.php:790
+#: helpers/main_admin_menu_callback.php:800
+#: helpers/main_admin_menu_callback.php:806
+msgid ""
+"Once the buttons are saved; the editor will be added to the table below "
+"(where it can be edited or deleted)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:761
+#: helpers/main_admin_menu_callback.php:767
+#: helpers/main_admin_menu_callback.php:773
+#: helpers/main_admin_menu_callback.php:779
+#: helpers/main_admin_menu_callback.php:785
+#: helpers/main_admin_menu_callback.php:791
+#: helpers/main_admin_menu_callback.php:801
+#: helpers/main_admin_menu_callback.php:807
+msgid ""
+"Click \"Cancel\" at anytime to return to the normal button configuration."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:765
+#, php-format
+msgid "The %s WordPress role editor is currently being edited."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:771
+#, php-format
+msgid "A new editor is being created for the %s WordPress capability."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:777
+#, php-format
+msgid "The %s WordPress capability editor is currently being edited."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:789
+#, php-format
+msgid "The editor for %s is currently being edited."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:795
+msgid ""
+"The current editor shown to the left is used for all users; if no WordPress "
+"Role, WordPress Capability or User Specific editor has been created."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:805
+msgid "The site visitor editor is currently being edited."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:817
+msgid "Create WordPress Role Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:819
+msgid ""
+"Use this option to create an editor which will be assigned to the selected "
+"WordPress user role."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:827
+msgid "Create Editor for Role"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:835
+msgid "Create WordPress Capability Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:837
+msgid ""
+"Use this option to create an editor which will be assigned to the selected "
+"WordPress user capability."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:847
+msgid "Create Editor for Capability"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:855
+msgid "Create User Specific Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:857
+msgid ""
+"Use this option to create an editor which will be assigned to the selected "
+"WordPress user."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:871
+msgid "Create Editor for User"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:879
+#: helpers/main_admin_menu_callback.php:883
+msgid "Create Visitor Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:881
+msgid ""
+"Use this option to create an editor which will be assigned to site visitors; "
+"non site users."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:905
+msgid "Created Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:909
+msgid "Table View"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:913
+msgid "Tab View"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:946
+msgid "WordPress Roles Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:966
+msgid "Role"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:966
+#: helpers/main_admin_menu_callback.php:1032
+#: helpers/main_admin_menu_callback.php:1116
+#: helpers/main_admin_menu_callback.php:1174
+#: helpers/main_admin_menu_callback.php:1414
+#: helpers/main_admin_menu_callback.php:1479
+#: helpers/main_admin_menu_callback.php:2582
+#: helpers/main_admin_menu_callback.php:2593
+msgid "Action"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:981
+msgid "No editors for WordPress roles have yet been created."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:986
+msgid ""
+"WordPress roles are the bottom tier of how buttons are displayed for users "
+"in the editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:987
+msgid ""
+"If a WordPress capability or user specific editor has been created and is "
+"applicable to the user; it will be used instead of the role (even if the "
+"role is also applicable)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1005
+msgid "WordPress Capabilities Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1008
+msgid ""
+"WordPress capabilities are sortable because a user can have multiple user "
+"capabilities."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1010
+msgid ""
+"If a user has multiple applicable capabilities; the capability highest on "
+"this list will be used for that user."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1032
+msgid "Capability"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1050
+msgid "No editors for WordPress capabilties have yet been created."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1059
+msgid "Save Sorted Capabilities"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1063
+msgid ""
+"WordPress capabilities are the middle tier of how buttons are displayed for "
+"users in the editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1064
+msgid ""
+"A created WordPress capabilities editor will override a created WordPress "
+"roles editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1065
+msgid ""
+"However; a user specific editor will override a WordPress capabilities "
+"editor (when applicable)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1083
+msgid "User Specific Editors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1137
+msgid "No editors for specific users have yet been created."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1143
+msgid ""
+"User specific editors are the top tier of how buttons are displayed for "
+"users in the editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1144
+msgid ""
+"These editors will override both a roles editor and a capabilities editor; "
+"because these editors are most specific to the user."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1174 langs/wpep_tinymce_langs.php:50
+msgid "Name"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1184
+msgid "No visitor editor has yet been created."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1190
+msgid "This is the editor used for site visitors."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1191
+msgid ""
+"Site visitors would not have any role, capability, or user editor; so this "
+"will be used instead."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1220
+msgid "Network Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1221
+msgid "These options are only available when the plugin is network activated."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1248
+msgid "Network Settings"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1249
+msgid ""
+"When network activated; you may select if all sub-sites should use identical "
+"settings, or you can administer different settings for each sub-site."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1250
+msgid "Use the same settings for every site in the network."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1251
+msgid "Use separate settings for each site in the network."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1258
+msgid "Switch to Network Site"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1272
+msgid "Switch to a network site to administer settings for that site."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1273
+msgid ""
+"(Network settings option above must be set to use \"separate settings\" for "
+"each site.)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1274
+msgid "Select network site"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1291
+msgid "Switch to Site"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1295
+msgid "Save Network Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1312
+msgid "Global Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1313
+msgid "These options control various items used throughout the plugin."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1326
+msgid "jQuery Theme"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1338
+msgid "Selects the jQuery theme for buttons rows (Buttons tab)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1341
+msgid "Disable Buttons Fancy Tooltips"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1344
+msgid "Disables the fancy tooltips when hovering over buttons."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1352
+msgid "Save Global Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1374
+msgid "Advanced Configuration Page"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1375
+msgid ""
+"This page allows modification of the values used in the tinymce "
+"initialization process."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1382
+msgid "Several of the more commonly used settings are:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1392
+msgid "Descriptions of all settings are available in the"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1392
+msgid "TinyMCE documentation."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1396
+#, php-format
+msgid ""
+"Examples can be found on the <a href=\"%s\" target=\"_blank\">WP Edit Pro "
+"Knowledge Base</a>."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1405
+msgid "Default Initialization Settings"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1406
+msgid "Display and adjust the default editor initialization values."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1411
+msgid "Option Name"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1413
+#: helpers/main_admin_menu_callback.php:1478
+msgid "Option Value"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1446
+msgid "Click to edit the option value."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1446
+msgid ""
+"Once clicked, the page will scroll to the bottom and the new option name and "
+"option value will become editable."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1447
+msgid "Change"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1461
+msgid "Show the default TinyMCE settings"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1462
+msgid "Hide the default TinyMCE settings"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1466
+msgid "Custom Initialization Settings"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1468
+msgid ""
+"To add an option to TinyMCE type the name on the left and the value on the "
+"right. <strong>Do not</strong> type quotes around the option name or value."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1469
+msgid ""
+"To add boolean values type the word <strong>true</strong> or <strong>false</"
+"strong>."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1471
+msgid ""
+"NOTE: Any options added below will take priority over any exisiting option "
+"of the same name above."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1477
+msgid "Option name"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1498
+msgid "Remove"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1514
+msgid "Save Configuration Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1559 main.php:751 main.php:989
+msgid "General Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1560
+msgid "General plugin options."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1582
+msgid "Linebreak Shortcode"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1585
+msgid "Use the [break] shortcode to insert linebreaks in the editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1588
+msgid "Shortcodes in Widgets"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1591
+msgid "Use shortcodes in widget areas."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1594
+msgid "Shortcodes in Excerpts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1597
+msgid "Use shortcodes in excerpt areas."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1610
+msgid "Excerpts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1614
+msgid "WP Edit Pro Post Excerpt"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1617
+msgid "Add the WP Edit Pro editor to the Post Excerpt area."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1620
+msgid "WP Edit Pro Page Excerpt"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1623
+msgid "Add the WP Edit Pro editor to the Page Excerpt area."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1629
+msgid "Custom Post Type Excerpts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1646
+msgid "No registered custom post types were found."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1660
+msgid "Miscellaneous"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1664
+msgid "Profile Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1667
+msgid "Use modified editor in profile biography field."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1675
+msgid "Save General Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1712
+msgid "Posts/Pages Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1713
+msgid "These options apply specifically to posts and pages."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1721
+msgid "Styles & Scripts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1723
+msgid "Global Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1724
+msgid "These styles will be added to every front-end post and page."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1725
+msgid ""
+"They will be wrapped in <code>&#60;style&#62;</code> tags; and inserted just "
+"before the closing <code>&#60;/head&#62;</code> tag."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1732
+msgid "Global Scripts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1733
+msgid "These scripts will be added to every front-end post and page."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1734
+msgid ""
+"They will be wrapped in <code>&#60;script&#62;</code> tags; and inserted "
+"just before the closing <code>&#60;/body&#62;</code> tag."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1742
+msgid "Individual post/page styles and scripts."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1743
+msgid ""
+"This setting will allow writing separate styles and scripts for separate "
+"posts and pages."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1744
+msgid ""
+"A new metabox will be added to each post/page; allowing input of new styles "
+"and scripts."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1747
+msgid "Enable individual post/page styles and scripts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1762
+msgid "Page/Post Default Titles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1763
+msgid "Adjust the default title shown when creating a new post/page."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1767
+msgid "Page Default Title"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1770
+msgid "Change the default \"add new\" page title field."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1773
+msgid "Post Default Title"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1776
+msgid "Change the default \"add new\" post title field."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1796
+msgid "Enable the column shortcodes functionality."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1809
+msgid "Editor Notes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1812
+msgid "Enable Editor Notes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1815
+msgid ""
+"Add an admin editor to posts and pages for notekeeping (only visible to "
+"admins)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1828
+msgid "Page Revisions"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1829
+msgid ""
+"Page revisions are stored in the database, and can grow quite large when "
+"dealing with extreme amounts of content."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1830
+msgid "Use these options to limit (or delete) the number of revisions."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1834
+msgid "Max Post Revisions"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1837
+msgid "Set max number of Post Revisions to store in database."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1840
+msgid "Max Page Revisions"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1843
+msgid "Set max number of Page Revisions to store in database."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1846
+msgid "Delete Revisions"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1849
+msgid "Delete all database revisions."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1852
+msgid "Revisions DB Size"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1887
+msgid "Hide Posts and Pages"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1891
+msgid "Hide Admin Posts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1894
+msgid ""
+"Hide selected posts from admin view. (comma separated post ids: 2,4,67,etc.)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1897
+msgid "Hide Admin Pages"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1900
+msgid ""
+"Hide selected pages from admin view. (comma separated page ids: 2,4,67,etc.)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1913
+msgid "Comment Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1915
+msgid ""
+"Replaces the standard comment textarea with a WP Edit Pro rich text editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1918
+msgid "Enable Comment Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1921
+msgid "Enables comment editor replacement."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1924
+msgid "Enable \"Add Media\" Button"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1927
+msgid "Enables the \"Add Media\" button just above comment editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1935
+msgid "Save Posts/Pages Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1965
+msgid "Editor Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1966
+msgid "These options will adjust various aspects of the TinyMCE editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1973
+msgid "Toggle Toolbar"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1977
+msgid "Force Toggle Toolbar"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1980
+msgid "Force the Toggle Toolbar button to \"enabled\" on page load."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1993
+msgid "Menu Bar and Context Menu"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:1997
+msgid "Enable Menu Bar"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2000
+msgid ""
+"Adds a menubar to the editor; providing shortcuts to commonly used buttons."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2013
+msgid "Font Types and Sizes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2017
+msgid "Dropdown Editor Font-Size Type"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2019
+msgid "px"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2020
+msgid "pt"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2021
+msgid "em"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2022
+msgid "%"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2024
+msgid ""
+"Select the editor font size type displayed in the \"Font Size\" button "
+"dropdown menu."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2027
+msgid "Dropdown Editor Font-Size Type Values"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2030
+msgid "Define available font-size values for Font Size dropdown box."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2031
+msgid ""
+"Values should be space separated; and end with the chosen font size type "
+"(selected above)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2032
+msgid ""
+"For Example: If <strong>em</strong> is selected; possible values could be "
+"<strong>1em 1.1em 1.2em</strong> etc."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2045
+msgid "Custom Colors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2049
+msgid "Editor Custom Colors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2058
+#: helpers/main_admin_menu_callback.php:2075
+msgid "Hex Value:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2061
+#: helpers/main_admin_menu_callback.php:2076
+msgid "Color Name:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2066
+#: helpers/main_admin_menu_callback.php:2077
+msgid "Add New Row"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2082
+msgid ""
+"A valid hex number (no hash sign) and color name must be entered for each "
+"custom color."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2083
+msgid ""
+"Note: These colors only apply to the palette used in foreground and "
+"background selections."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2084
+msgid "To delete a custom color; just leave the values blank, and save."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2097
+msgid "Dropbox Settings"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2099
+msgid ""
+"To use Dropbox, an app will first need to be created.  This is a very easy "
+"process, and should only take a few minutes."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2100
+msgid ""
+"The app will be used to link the Dropbox account to the website; and allow "
+"the two to communicate."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2103
+msgid "Dropbox App Key"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2105
+msgid "The app key from the Dropbox app screen."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2106
+msgid "Create Dropbox App Tutorial"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2118
+msgid "Disable Editor"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2120
+msgid ""
+"The following options will disable the WP Edit Pro editor; resulting in the "
+"standard editor being displayed."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2126
+msgid "Disable WP Edit Pro on posts."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2132
+msgid "Disable WP Edit Pro on pages."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2141
+msgid "Save Editor Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2164
+msgid "Google Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2165
+msgid ""
+"Use any Google font(s) in the editor.  Be sure the \"Font Family\" button is "
+"added to the editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2168
+msgid "Activate Google Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2170
+msgid "Turns on/off Google Webfonts."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2177
+msgid "Build Font List"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2180
+msgid ""
+"<strong>Step 1:</strong> Visit <a target=\"_blank\" href=\"http://www.google."
+"com/fonts\">Google Webfonts</a> to see how fonts are displayed in the "
+"browser."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2182
+msgid ""
+"<strong>Step 2:</strong> Once desired fonts are selected, choose them (one "
+"at a time) from the dropdown list below (sorted alphabetically)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2205
+msgid "<option value=\"\">Select font...</option>"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2215
+msgid ""
+"<strong>Note:</strong> As fonts are selected, they will appear in the "
+"\"Active Fonts\" section below."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2225
+msgid "Active Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2233
+msgid "Current Font List"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2252
+msgid "Trash Bin"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2256
+msgid "Drag fonts here to delete..."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2265
+msgid "Remember to save the options when finished."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2280
+msgid "Custom Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2282
+msgid "Upload custom fonts for use in the editor."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2283
+msgid ""
+"To ensure maximum browser compatibility, please first convert the font "
+"before uploading."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2286
+msgid "1. Convert the font."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2287
+msgid ""
+"Use a service like <a href=\"http://www.fontsquirrel.com/tools/webfont-"
+"generator\" target=\"_blank\">Font Squirrel</a> to convert the font for the "
+"web."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2290
+msgid "2. Upload the files."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2291
+msgid "Take the new files created by Font Squirel; and upload them below."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2292
+msgid ""
+"For each font; five files will be needed. Upload the files ending in .eot, ."
+"svg, .ttf, .woff, and .woff2."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2293
+msgid ""
+"NOTE: It is suggested to rename the font files to easy-to-understand names "
+"(e.g. \"PrettyFont.ttf\") without any spaces."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2300
+msgid "Upload Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2314
+msgid "Uploaded Fonts"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2315
+msgid "A list of all currently uploaded and active fonts."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2421
+msgid "The following font types are missing for this font: "
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2423
+msgid ""
+"This font may not display properly in all browsers until the additional font "
+"types are uploaded."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2425
+msgid ""
+"Please use a webservice like <a href=\"http://www.fontsquirrel.com/tools/"
+"webfont-generator\" target=\"_blank\">Font Squirrel</a> to generate the "
+"necessary font files; and upload them above."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2431
+msgid "All required font types for this font have been uploaded and located."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2477
+msgid "Predefined Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2478
+msgid ""
+"Easily add over 80 pre-written styles. Please ensure the \"Formats\" button "
+"has been added to the toolbar."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2482
+msgid "Add Pre-Defined Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2485
+msgid "Adds styles to the \"Formats\" dropdown editor button."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2491
+msgid "Save Predefined Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2500 helpers/style_formats.php:80
+msgid "Custom Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2501
+msgid ""
+"Read our <a target=\"_blank\" href=\"http://learn.wpeditpro.com/custom-"
+"styles/\">Custom Styles Knowledge Base Article</a> for assistance creating "
+"custom styles."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2503
+msgid "Create or Edit a custom style."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2509
+msgid ">Use the form below to create unique custom styles."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2512
+msgid "Title:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2513
+msgid "Title which appears in dropdown box."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2515
+msgid "Type:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2516
+msgid "Choose which type of style to create."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2517
+msgid "inline"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2518
+msgid "block"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2519
+msgid "selector"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2520
+msgid "Element:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2521
+msgid "Choose which type of element this style applies to."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2523
+msgid "Classes:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2524
+msgid "Space separated list of class names (optional)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2526
+msgid "Styles:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2527
+msgid "CSS style items to apply (optional)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2529
+msgid "Wrapper:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2530
+msgid "Wrap selection in a block element."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2531
+msgid "false"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2532
+msgid "true"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2537
+msgid "Custom Styles Instructions:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2539
+msgid "Step 1:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2539
+msgid ""
+"Enter a title for the new style.  The title will appear in the \"Formats\" "
+"dropdown editor button."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2540
+msgid "Step 2:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2540
+msgid ""
+"Select a type.  The type of element which will contain the custom style."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2541
+msgid "Step 3:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2541
+msgid ""
+"Select an element.  The specific element which will contain the custom style."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2542
+msgid "Step 4:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2542
+msgid ""
+"Enter a spaced separated list of class names.  These can be class names "
+"available in any tinymce editor stylesheet."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2543
+msgid "Step 5:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2543
+msgid ""
+"Enter styles. Should be entered as <strong><em>name: value; name: value;</"
+"em></strong> <em>etc...</em>"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2544
+msgid "Step 6:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2544
+msgid "Wrapper. If true, will wrap the element in a block level div element."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2547
+msgid "Notes:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2549
+msgid ""
+"If \"Styles\" are entered into the option... then the styles will be applied "
+"\"inline\" inside the editor content.  This means the styles will appear "
+"correctly when viewed from the front-end of the website."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2551
+msgid ""
+"However, if \"Classes\" are used instead.. then these class names must be "
+"available BOTH in the editor stylesheet AND on the front-end stylesheet "
+"(either in the theme, or a custom css plugin)."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2553
+msgid ""
+"More help can be found at the <a target=\"_blank\" href=\"http://www.tinymce."
+"com/wiki.php/Configuration:formats\">TinyMCE Formats</a> webpage."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2559
+msgid "Save Custom Style"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2560
+msgid "Cancel/Clear Form"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2570
+msgid "Created Styles"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2571
+msgid ""
+"These styles will appear in the \"Formats\" editor dropdown in the \"Custom "
+"Styles\" sub-menu."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2577
+#: helpers/main_admin_menu_callback.php:2588
+#: tmce_plugins/advlink/advlink.php:113
+msgid "Type"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2578
+#: helpers/main_admin_menu_callback.php:2589
+msgid "Element"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2579
+#: helpers/main_admin_menu_callback.php:2590 main.php:2033
+#: tmce_plugins/advlink/advlink.php:63
+msgid "Classes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2581
+#: helpers/main_admin_menu_callback.php:2592
+msgid "Wrapper"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2610
+msgid "Edit"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2612
+msgid "Delete"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2628
+msgid "Editor Stylesheet"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2629
+msgid ""
+"Any custom css added to the stylesheet below will be used inside the content "
+"editor. (Be sure to empty browser cache after changes)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2630
+msgid "Hint: Target the entire editor with \"body { ... }\""
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2638
+msgid "Save Editor Stylesheet"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2658
+msgid "Snidget Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2666
+msgid "These options specifically affect how snidgets are handled."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2679
+msgid "Snidget Builder"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2682
+msgid "Enables the powerful snidget builder."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2689
+msgid "Allow other user roles to access snidgets administration."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2723
+msgid "Save Snidget Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2729
+msgid "Current Snidgets"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2733
+msgid ""
+"Snidgets are currently deactivated. Please enable snidgets using the "
+"checkbox above."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2738
+msgid ""
+"This table will list all current snidgets. Use the links for quick access to "
+"edit a snidget."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2739
+msgid ""
+"You may also visit any subsite to administer snidgets; new menu items will "
+"be added."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2851
+msgid "User Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2852
+msgid ""
+"These options are saved in the user meta table; each admin can set unique "
+"options on this page."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2861
+msgid "Network User Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2864
+msgid "Switch to a user to edit their settings."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2871
+#, php-format
+msgid ""
+"Currently editing user meta for %s.  Cancel editing to return to current "
+"user meta."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2877
+msgid "Select User"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2880
+msgid "Select User..."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2897
+msgid "Switch to User"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2899
+msgid "Cancel Editing User"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2906
+msgid "Allow other user roles to access this user settings page."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2948
+msgid "General User Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2968 main.php:758 main.php:996
+msgid "ID Column"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2971 main.php:761 main.php:999
+msgid "Adds a column to post/page list view for displaying the post/page ID."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2974 main.php:764 main.php:1002
+msgid "Thumbnail Column"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2977 main.php:767 main.php:1005
+msgid "Adds a column to post/page list view for displaying thumbnails."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2980 main.php:770 main.php:1008
+msgid "Hide TEXT Tab"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2983 main.php:773 main.php:1011
+msgid "Hide the editor TEXT tab from view."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2986 main.php:776 main.php:1014
+msgid "Default VISUAL Tab"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2989 main.php:779 main.php:1017
+msgid "Always display VISUAL tab when editor loads."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2992 main.php:782 main.php:1020
+msgid "Disable Dashboard Widget"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:2995 main.php:785 main.php:1023
+msgid "Disables WP Edit Pro News Feed dashboard widget."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3007
+msgid "Post/Page Highlight Colors"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3010
+msgid ""
+"These options will allow each admin to customize highlight colors for each "
+"post/page status."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3011
+msgid "Meaning.. saved posts can be yellow, published posts can be blue, etc."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3015 main.php:799 main.php:1037
+msgid "Enable Highlights"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3018 main.php:802 main.php:1040
+msgid "Enable the Highlight Options below."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3021 main.php:805 main.php:1043
+msgid "Draft Highlight"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3026 main.php:810 main.php:1048
+msgid "Pending Highlight"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3031 main.php:815 main.php:1053
+msgid "Published Highlight"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3036 main.php:820 main.php:1058
+msgid "Future Highlight"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3041 main.php:825 main.php:1063
+msgid "Private Highlight"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3051 main.php:833 main.php:1071
+msgid "Save User Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3079
+msgid "Extra Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3086
+msgid "Signoff Text"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3087
+msgid ""
+"Use the editor below to create a content chunk that can be inserted anywhere "
+"using the <strong>[signoff]</strong> shortcode."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3110
+msgid "QR Codes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3114
+msgid "QR Codes will be displayed on each post and page; or in a widget."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3115
+msgid "The image will link back to the post or page where it is displayed."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3117
+msgid "Enable QR Code"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3120
+msgid "Enable QR Codes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3123
+msgid "A global option which enables all QR Code functionality."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3126
+msgid "Enable QR Widgets"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3129
+msgid "Adds new widget for creating QR codes."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3136
+msgid "Design QR Code"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3142
+msgid "Title Background"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3147
+msgid "Content Background"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3152
+msgid "Text Color"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3157
+msgid "QR Foreground Color"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3162
+msgid "QR Background Color"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3175
+msgid "Title Text"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3180 langs/wpep_tinymce_langs.php:87
+msgid "Content"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3190
+msgid "Preview QR Code"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3191
+msgid ""
+"This is a preview area. Changes will not be written to the database until "
+"the \"Save Extras Options\" button is clicked."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3195
+msgid "Preview! (<em>Click \"Save Changes\" to update</em>)"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3206
+msgid ""
+"This is preview text. Use the editor below to create custom text for your "
+"posts/pages."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3207
+msgid ""
+"It is strongly suggested to use highly contrasting colors for the background "
+"and foreground QR colors."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3217
+msgid "Save Extras Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3233
+msgid "Database Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3239
+#: helpers/main_admin_menu_callback.php:3243
+msgid "Reset Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3240
+msgid "Reset all plugin options to their original default values."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3247
+msgid "Reset Site Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3251
+#, php-format
+msgid "Reset Blog ID %s Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3268
+#: helpers/main_admin_menu_callback.php:3273
+msgid "Convert Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3269
+msgid "Convert options from WP Edit to WP Edit Pro."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3270
+msgid ""
+"Note: Not all options may convert properly. Please double-check options "
+"after conversion."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3277
+msgid "Convert Site Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3281
+#, php-format
+msgid "Convert Blog ID %s Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3297
+#: helpers/main_admin_menu_callback.php:3305
+msgid "Export Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3298
+msgid "Export the plugin settings for this site as a .json file."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3309
+msgid "Export Site Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3313
+#, php-format
+msgid "Export Blog ID %s Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3329
+#: helpers/main_admin_menu_callback.php:3337
+msgid "Import Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3330
+msgid "Import the plugin settings from a .json file."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3341
+msgid "Import Site Options"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3345
+#, php-format
+msgid "Import Options to Blog ID %s"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3360
+#: helpers/main_admin_menu_callback.php:3368
+msgid "Uninstall Plugin"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3361
+msgid ""
+"Designed by intention, this plugin will not delete the associated database "
+"tables when activating and deactivating."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3362
+msgid ""
+"This ensures the data is kept safe when troubleshooting other WordPress "
+"conflicts."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3363
+msgid ""
+"In order to completely uninstall the plugin, AND remove all associated "
+"database tables, please use the option below."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3365
+msgid "Uninstall and delete all associated database options."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3372
+msgid "Uninstall Network Plugin"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3380
+msgid "Please confirm before uninstalling plugin."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3384
+msgid "This plugin is currently network activated."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3386
+msgid "Delete plugin options for all network sites?"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3424
+msgid "Information"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3430
+msgid "Plugin and server version information."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3434
+msgid "WP Edit Pro Version:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3439
+msgid "WordPress Version:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3444
+msgid "PHP Version:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3449
+msgid "HTML Version:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3454
+msgid "MySql Version:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3459
+msgid "jQuery Version:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3470
+msgid "Support"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3475
+msgid "Please use the following helpful links for plugin support."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3479
+msgid "Help Desk:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3482
+msgid "Create or Manage support tickets."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3485
+msgid "Knowledge Base:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3488
+msgid "Complete plugin documentation."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3491
+msgid "Contact Us:"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3502
+msgid "Documentation"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3507
+msgid ""
+"Remember, complete plugin documentation can be found on our <a target="
+"\"_blank\" href=\"http://learn.wpeditpro.com\">Knowledge Base</a>."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3508
+msgid ""
+"Visit the <a target=\"_blank\" href=\"http://learn.wpeditpro.com/category/"
+"plugin-options/\">Knowledge Base Plugin Options</a> page to get started."
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3527
+msgid "Developer Notes"
+msgstr ""
+
+#: helpers/main_admin_menu_callback.php:3528
+msgid "Dynamically generated content... straight from the developer."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:87
+#, php-format
+msgid "New editor for the %s WordPress role has been created successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:112 helpers/main_admin_menu_save.php:163
+#, php-format
+msgid "The %s editor has been saved successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:137
+#, php-format
+msgid ""
+"New editor for the %s WordPress capability has been created successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:191 helpers/main_admin_menu_save.php:219
+#, php-format
+msgid "The editor for user %s has been saved successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:241
+msgid "New editor for site visitors has been created successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:263
+msgid "The site visitor editor has been saved successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:281
+msgid "Buttons have been saved successfully."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:385
+msgid ""
+"New buttons were discovered.  The following buttons have been added to the "
+"Button Container:"
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:389
+msgid ""
+"These buttons have also been added to any custom created editors. Enjoy!"
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:578
+msgid "The following buttons have been removed from WP Edit Pro:"
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:583
+msgid "These buttons have also been removed from any custom created editors."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:612
+#, php-format
+msgid "The %s WordPress role editor has been successfully deleted."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:640
+#, php-format
+msgid "The %s WordPress capability editor has been successfully deleted."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:671
+#, php-format
+msgid "The user editor for %s has been successfully deleted."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:693
+msgid "The site visitor editor has been successfully deleted."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:734
+msgid "User capability editors have been successfully sorted and saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:748
+msgid ""
+"No user editors have yet been created. Please create at least two user "
+"editors before attempting to sort."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:764
+msgid ""
+"Editor buttons have been reset to default values. Remember to \"Save\" the "
+"changes."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:800
+msgid "Network options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:847
+msgid "Global options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:903
+msgid "Configuration options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:951
+msgid "General options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1070
+msgid "Posts/Pages options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1111
+msgid "Editor options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1135
+msgid "Google Font options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1326
+msgid "Custom Font options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1339
+msgid "There was an error uploading the custom fonts. See below for errors:"
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1373
+msgid "Options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1428
+msgid "Style successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1475
+msgid "Stylesheet successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1598
+msgid "Snidget options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1821 main.php:883 main.php:1115
+msgid "User options successfully saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1853
+msgid "Extra options saved."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1952
+msgid ""
+"Plugin settings have been successfully restored to their default values."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:1998
+msgid "Plugin settings have been successfully converted."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2000
+msgid "Delete old WP Edit plugin options?"
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2026
+msgid "Old WP Edit plugin settings have been successfully deleted."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2038
+msgid "Old WP Edit plugin settings have been left untouched in the database."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2132
+msgid "Import failed. Please select a file with a valid .json extension."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2148
+msgid "Import failed. Please select a file to import."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2210
+msgid "Plugin settings have been successfully imported."
+msgstr ""
+
+#: helpers/main_admin_menu_save.php:2291
+msgid ""
+"You must also check the confirm box before options will be uninstalled and "
+"deleted."
+msgstr ""
+
+#: helpers/style_formats.php:103
+msgid "Defined Styles"
+msgstr ""
+
+#: helpers/style_formats.php:107
+msgid "Text Styles"
+msgstr ""
+
+#: helpers/style_formats.php:111
+msgid "Bold Black Text"
+msgstr ""
+
+#: helpers/style_formats.php:119
+msgid "Italic Black Text"
+msgstr ""
+
+#: helpers/style_formats.php:127
+msgid "Bold Italic Black Text"
+msgstr ""
+
+#: helpers/style_formats.php:136
+msgid "Bold Red Text"
+msgstr ""
+
+#: helpers/style_formats.php:144
+msgid "Italic Red Text"
+msgstr ""
+
+#: helpers/style_formats.php:152
+msgid "Bold Italic Red Text"
+msgstr ""
+
+#: helpers/style_formats.php:161
+msgid "Bold Blue Text"
+msgstr ""
+
+#: helpers/style_formats.php:169
+msgid "Italic Blue Text"
+msgstr ""
+
+#: helpers/style_formats.php:177
+msgid "Bold Italic Blue Text"
+msgstr ""
+
+#: helpers/style_formats.php:186
+msgid "Bold Green Text"
+msgstr ""
+
+#: helpers/style_formats.php:194
+msgid "Italic Green Text"
+msgstr ""
+
+#: helpers/style_formats.php:202
+msgid "Bold Italic Green Text"
+msgstr ""
+
+#: helpers/style_formats.php:214
+msgid "Text Outlines"
+msgstr ""
+
+#: helpers/style_formats.php:218
+msgid "Text Outline Black"
+msgstr ""
+
+#: helpers/style_formats.php:225
+msgid "Text Outline Red"
+msgstr ""
+
+#: helpers/style_formats.php:232
+msgid "Text Outline Blue"
+msgstr ""
+
+#: helpers/style_formats.php:239
+msgid "Text Outline Green"
+msgstr ""
+
+#: helpers/style_formats.php:246
+msgid "Text Outline Violet"
+msgstr ""
+
+#: helpers/style_formats.php:254
+msgid "Text Outline Teal"
+msgstr ""
+
+#: helpers/style_formats.php:261
+msgid "Text Outline Gold"
+msgstr ""
+
+#: helpers/style_formats.php:268
+msgid "Text Outline Purple"
+msgstr ""
+
+#: helpers/style_formats.php:281
+msgid "Text Decoration"
+msgstr ""
+
+#: helpers/style_formats.php:285
+msgid "3D Text"
+msgstr ""
+
+#: helpers/style_formats.php:293
+msgid "Text Shadow"
+msgstr ""
+
+#: helpers/style_formats.php:300
+msgid "Blurry Text"
+msgstr ""
+
+#: helpers/style_formats.php:309
+msgid "Milky Text"
+msgstr ""
+
+#: helpers/style_formats.php:318
+msgid "Mystery Text"
+msgstr ""
+
+#: helpers/style_formats.php:327
+msgid "Engrave Text"
+msgstr ""
+
+#: helpers/style_formats.php:335
+msgid "Small Caps"
+msgstr ""
+
+#: helpers/style_formats.php:345
+msgid "Text Glows"
+msgstr ""
+
+#: helpers/style_formats.php:349
+msgid "Glow Green"
+msgstr ""
+
+#: helpers/style_formats.php:356
+msgid "Glow Blue"
+msgstr ""
+
+#: helpers/style_formats.php:363
+msgid "Glow Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:370
+msgid "Glow Violet"
+msgstr ""
+
+#: helpers/style_formats.php:377
+msgid "Glow Red"
+msgstr ""
+
+#: helpers/style_formats.php:385
+msgid "Glow Teal"
+msgstr ""
+
+#: helpers/style_formats.php:392
+msgid "Glow Gold"
+msgstr ""
+
+#: helpers/style_formats.php:399
+msgid "Glow Purple"
+msgstr ""
+
+#: helpers/style_formats.php:411
+msgid "Highlights"
+msgstr ""
+
+#: helpers/style_formats.php:415
+msgid "Highlight Green"
+msgstr ""
+
+#: helpers/style_formats.php:425
+msgid "Highlight Blue"
+msgstr ""
+
+#: helpers/style_formats.php:435
+msgid "Highlight Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:445
+msgid "Highlight Violet"
+msgstr ""
+
+#: helpers/style_formats.php:455
+msgid "Highlight Red"
+msgstr ""
+
+#: helpers/style_formats.php:466
+msgid "Highlight Teal"
+msgstr ""
+
+#: helpers/style_formats.php:476
+msgid "Highlight Gold"
+msgstr ""
+
+#: helpers/style_formats.php:486
+msgid "Highlight Purple"
+msgstr ""
+
+#: helpers/style_formats.php:499
+msgid "Inset Box Styles"
+msgstr ""
+
+#: helpers/style_formats.php:503
+msgid "Inset Box Green"
+msgstr ""
+
+#: helpers/style_formats.php:514
+msgid "Inset Box Blue"
+msgstr ""
+
+#: helpers/style_formats.php:525
+msgid "Inset Box Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:536
+msgid "Inset Box Violet"
+msgstr ""
+
+#: helpers/style_formats.php:547
+msgid "Inset Box Red"
+msgstr ""
+
+#: helpers/style_formats.php:558
+msgid "Inset Box Steel"
+msgstr ""
+
+#: helpers/style_formats.php:568
+msgid "Inset Box Teal"
+msgstr ""
+
+#: helpers/style_formats.php:579
+msgid "Inset Box Gold"
+msgstr ""
+
+#: helpers/style_formats.php:590
+msgid "Inset Box Purple"
+msgstr ""
+
+#: helpers/style_formats.php:604
+msgid "Box Shadows"
+msgstr ""
+
+#: helpers/style_formats.php:608
+msgid "Box Shadow Green"
+msgstr ""
+
+#: helpers/style_formats.php:619
+msgid "Box Shadow Blue"
+msgstr ""
+
+#: helpers/style_formats.php:630
+msgid "Box Shadow Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:641
+msgid "Box Shadow Violet"
+msgstr ""
+
+#: helpers/style_formats.php:652
+msgid "Box Shadow Red"
+msgstr ""
+
+#: helpers/style_formats.php:664
+msgid "Box Shadow Teal"
+msgstr ""
+
+#: helpers/style_formats.php:675
+msgid "Box Shadow Gold"
+msgstr ""
+
+#: helpers/style_formats.php:686
+msgid "Box Shadow Purple"
+msgstr ""
+
+#: helpers/style_formats.php:700
+msgid "Hover Boxes"
+msgstr ""
+
+#: helpers/style_formats.php:704
+msgid "Hover Box Green"
+msgstr ""
+
+#: helpers/style_formats.php:715
+msgid "Hover Box Blue"
+msgstr ""
+
+#: helpers/style_formats.php:726
+msgid "Hover Box Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:737
+msgid "Hover Box Violet"
+msgstr ""
+
+#: helpers/style_formats.php:748
+msgid "Hover Box Red"
+msgstr ""
+
+#: helpers/style_formats.php:760
+msgid "Hover Box Teal"
+msgstr ""
+
+#: helpers/style_formats.php:771
+msgid "Hover Box Gold"
+msgstr ""
+
+#: helpers/style_formats.php:782
+msgid "Hover Box Purple"
+msgstr ""
+
+#: helpers/style_formats.php:796
+msgid "Download Links"
+msgstr ""
+
+#: helpers/style_formats.php:800
+msgid "Download Link Green"
+msgstr ""
+
+#: helpers/style_formats.php:813
+msgid "Download Link Blue"
+msgstr ""
+
+#: helpers/style_formats.php:825
+msgid "Download Link Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:837
+msgid "Download Link Violet"
+msgstr ""
+
+#: helpers/style_formats.php:849
+msgid "Download Link Red"
+msgstr ""
+
+#: helpers/style_formats.php:862
+msgid "Download Link Teal"
+msgstr ""
+
+#: helpers/style_formats.php:874
+msgid "Download Link Gold"
+msgstr ""
+
+#: helpers/style_formats.php:886
+msgid "Download Link Purple"
+msgstr ""
+
+#: helpers/style_formats.php:901
+msgid "3D Buttons"
+msgstr ""
+
+#: helpers/style_formats.php:905
+msgid "3D Button Green"
+msgstr ""
+
+#: helpers/style_formats.php:921
+msgid "3D Button Blue"
+msgstr ""
+
+#: helpers/style_formats.php:937
+msgid "3D Button Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:953
+msgid "3D Button Violet"
+msgstr ""
+
+#: helpers/style_formats.php:969
+msgid "3D Button Red"
+msgstr ""
+
+#: helpers/style_formats.php:988
+msgid "Callout Boxes"
+msgstr ""
+
+#: helpers/style_formats.php:992
+msgid "Callout Box Green"
+msgstr ""
+
+#: helpers/style_formats.php:1003
+msgid "Callout Box Blue"
+msgstr ""
+
+#: helpers/style_formats.php:1015
+msgid "Callout Box Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:1026
+msgid "Callout Box Violet"
+msgstr ""
+
+#: helpers/style_formats.php:1038
+msgid "Callout Box Red"
+msgstr ""
+
+#: helpers/style_formats.php:1051
+msgid "Callout Box Teal"
+msgstr ""
+
+#: helpers/style_formats.php:1063
+msgid "Callout Box Gold"
+msgstr ""
+
+#: helpers/style_formats.php:1075
+msgid "Callout Box Purple"
+msgstr ""
+
+#: helpers/style_formats.php:1090
+msgid "Floating Divs"
+msgstr ""
+
+#: helpers/style_formats.php:1094
+msgid "Floating Div Green"
+msgstr ""
+
+#: helpers/style_formats.php:1111
+msgid "Floating Div Blue"
+msgstr ""
+
+#: helpers/style_formats.php:1128
+msgid "Floating Div Yellow"
+msgstr ""
+
+#: helpers/style_formats.php:1145
+msgid "Floating Div Violet"
+msgstr ""
+
+#: helpers/style_formats.php:1162
+msgid "Floating Div Red"
+msgstr ""
+
+#: helpers/style_formats.php:1179
+msgid "Floating Div Glass"
+msgstr ""
+
+#: helpers/style_formats.php:1201
+msgid "Borders"
+msgstr ""
+
+#: helpers/style_formats.php:1205
+msgid "Single Border"
+msgstr ""
+
+#: helpers/style_formats.php:1214
+msgid "Double Border"
+msgstr ""
+
+#: helpers/style_formats.php:1223
+msgid "Top & Bottom Border"
+msgstr ""
+
+#: helpers/style_formats.php:1234
+msgid "Sngl Rainbow Border"
+msgstr ""
+
+#: helpers/style_formats.php:1243
+msgid "Dbl Rainbow Border"
+msgstr ""
+
+#: helpers/style_formats.php:1256
+msgid "Opacity"
+msgstr ""
+
+#: helpers/style_formats.php:1260
+msgid "75% Opacity"
+msgstr ""
+
+#: helpers/style_formats.php:1267
+msgid "50% Opacity"
+msgstr ""
+
+#: helpers/style_formats.php:1274
+msgid "25% Opacity"
+msgstr ""
+
+#: helpers/style_formats.php:1284
+msgid "Alignment"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:15
+msgid "Edit Abbreviation"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:16
+msgid "Abbreviation Title"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:17
+msgid "Selection"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:21
+msgid "Submitting Code for Accessibility Checking..."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:28
+msgid "Fields Not Completed"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:29
+msgid "The value must be a number."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:30
+msgid "The value must be between 0 and 100."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:36
+msgid "Bulleted list"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:37
+msgid "Numbered list"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:38
+msgid "default"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:39
+msgid "circle"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:40
+msgid "disc"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:41
+msgid "square"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:42
+msgid "lower-alpha"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:43
+msgid "lower-greek"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:44
+msgid "lower-roman"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:45
+msgid "upper-alpha"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:46
+msgid "upper-roman"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:57
+msgid "Clear Left"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:58
+msgid "Clear Right"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:59
+msgid "Clear Both"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:63
+msgid "Loading Images..."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:64
+msgid "Loading..."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:65
+msgid "entries found"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:66
+msgid "Sml"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:67
+msgid "Med"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:68
+msgid "Lrg"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:69
+msgid "Error loading youtube video results."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:72
+msgid "Source Code"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:76
+msgid "Nothing Found."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:77
+msgid "Nothing to Replace."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:80
+msgid "Color"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:84
+msgid "Select column sizes"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:85
+msgid "Select ..."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:88 langs/wpep_tinymce_langs.php:113
+msgid "Insert"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:94
+msgid "Left to Right"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:95
+msgid "Right to Left"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:99
+msgid "Oops. The WP Edit Pro Dropbox App Key has not been saved."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:100
+msgid ""
+"Please visit the WP Edit Pro settings page (Editor tab), and set a Dropbox "
+"App Key."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:106
+#: tmce_plugins/flickrImages/flickrImages.php:21
+msgid "Flickr Image Search"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:107
+msgid "Please enter a search keyword to search Flickr Images."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:108
+msgid "First"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:109
+msgid "Previous"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:110
+msgid "Next"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:111
+msgid "Last"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:112
+msgid "View"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:114
+msgid ""
+"No results were found to display. Please check the spelling of the search "
+"keywords; or try a more general search keyword."
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:172
+msgid "YouTube Video"
+msgstr ""
+
+#: langs/wpep_tinymce_langs.php:173
+msgid "Select YouTube Video"
+msgstr ""
+
+#: main.php:366
+msgid "Thumbnail"
+msgstr ""
+
+#: main.php:377
+msgid "None"
+msgstr ""
+
+#: main.php:422
+msgid "WP Edit PRO RSS Feed"
+msgstr ""
+
+#: main.php:457
+msgid "WP Edit PRO Knowledge Base RSS Feed"
+msgstr ""
+
+#: main.php:534 main.php:657 main.php:910
+msgid "Snidget Categories"
+msgstr ""
+
+#: main.php:535 main.php:658 main.php:911
+msgid "Snidget Tags"
+msgstr ""
+
+#: main.php:539
+msgid "Bonus"
+msgstr ""
+
+#: main.php:545
+msgid "WP Edit Pro"
+msgstr ""
+
+#: main.php:681
+msgid "Plugin is Network Activated"
+msgstr ""
+
+#: main.php:683
+msgid ""
+"The plugin is currently network activated. This means only the network site "
+"administrator has the ability to adjust plugin options."
+msgstr ""
+
+#: main.php:684
+msgid ""
+"If, however, the network administrator has allowed some of these options to "
+"be adjusted by sub-site administrators; they will appear below."
+msgstr ""
+
+#: main.php:695 main.php:724
+msgid "Super Administrator Message:"
+msgstr ""
+
+#: main.php:696
+msgid ""
+"Super administrators can see the Snidget sub-menus whenever snidgets are "
+"enabled."
+msgstr ""
+
+#: main.php:697
+msgid ""
+"Normal site administrators (or other roles)  may be allowed access via the "
+"appropriate setting in the network plugin administration."
+msgstr ""
+
+#: main.php:703 main.php:948
+msgid "Snidget administration is allowed."
+msgstr ""
+
+#: main.php:704 main.php:949
+msgid "Please use the WP Edit Pro sub-menu items to administer snidgets."
+msgstr ""
+
+#: main.php:708 main.php:953
+msgid "Snidget administration is not allowed."
+msgstr ""
+
+#: main.php:719 main.php:964
+msgid "User Specific Options"
+msgstr ""
+
+#: main.php:725
+msgid "Super administrators can edit user options anytime."
+msgstr ""
+
+#: main.php:726
+msgid ""
+"Normal site administrators (or other roles) may be allowed access via the "
+"appropriate setting in the network plugin administration."
+msgstr ""
+
+#: main.php:732 main.php:970
+msgid "User Options Allowed."
+msgstr ""
+
+#: main.php:793 main.php:1031
+msgid "Post/Page Highlight Options"
+msgstr ""
+
+#: main.php:839 main.php:1077
+msgid "User Options Not Allowed."
+msgstr ""
+
+#: main.php:934
+msgid "User Settings Page"
+msgstr ""
+
+#: main.php:936
+msgid "The site administrator may have enabled some of the options below."
+msgstr ""
+
+#: main.php:1148
+msgid "Uninstall"
+msgstr ""
+
+#: main.php:1148
+msgid "Installed"
+msgstr ""
+
+#: main.php:1148 main.php:1167
+msgid "Install"
+msgstr ""
+
+#: main.php:1148
+msgid "Not Installed"
+msgstr ""
+
+#: main.php:1153
+msgid "Bonus Page"
+msgstr ""
+
+#: main.php:1154
+msgid "What premium plugin would be complete without a Bonus Page?"
+msgstr ""
+
+#: main.php:1159
+msgid "Additional Addons"
+msgstr ""
+
+#: main.php:1162
+msgid "The following addons can be installed for WP Edit Pro."
+msgstr ""
+
+#: main.php:1163
+#, php-format
+msgid "You may manage them here; or from the admin %s page."
+msgstr ""
+
+#: main.php:1163
+msgid "plugins"
+msgstr ""
+
+#: main.php:1166
+msgid "Addon"
+msgstr ""
+
+#: main.php:1172
+msgid "WP Edit Pro File Manager"
+msgstr ""
+
+#: main.php:1173
+msgid "Learn More..."
+msgstr ""
+
+#: main.php:1198
+msgid "WP Edit Pro File Manager has been successfully installed."
+msgstr ""
+
+#: main.php:1200
+msgid "Please visit the \"Plugins\" admin page to activate."
+msgstr ""
+
+#: main.php:1212
+msgid "WP Edit Pro File Manager successfully uninstalled."
+msgstr ""
+
+#: main.php:1332
+msgid ""
+"WP Edit Pro is not licensed correctly.  Please verify your WP Edit Pro "
+"license; or contact us for assistance."
+msgstr ""
+
+#: main.php:1403
+msgid "Settings"
+msgstr ""
+
+#: main.php:1408
+msgid "License"
+msgstr ""
+
+#: main.php:1421
+msgid "Help Desk"
+msgstr ""
+
+#: main.php:1422
+msgid "Contact"
+msgstr ""
+
+#: main.php:1878
+msgid "WP Edit Pro Excerpt"
+msgstr ""
+
+#: main.php:1900 main.php:1921
+msgid "Wp Edit Pro Excerpt"
+msgstr ""
+
+#: main.php:1944
+msgid "Biographical Info"
+msgstr ""
+
+#: main.php:1951
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: main.php:1991
+msgid "Taken from WP Edit Pro custom css (posts tab)"
+msgstr ""
+
+#: main.php:2003
+msgid "Taken from WP Edit Pro custom scripts (posts tab)"
+msgstr ""
+
+#: main.php:2014
+msgid "WP Edit Pro Styles & Scripts"
+msgstr ""
+
+#: main.php:2032
+msgid "Scripts"
+msgstr ""
+
+#: main.php:2041
+msgid ""
+"These styles will be wrapped in <code>&#60;style&#62;</code> tags; and "
+"inserted just before the closing <code>&#60;/head&#62;</code> tag of this "
+"page only."
+msgstr ""
+
+#: main.php:2053
+msgid ""
+"These scripts will be wrapped in <code>&#60;script&#62;</code> tags; and "
+"inserted just before the closing <code>&#60;/body&#62;</code> tag of this "
+"page only."
+msgstr ""
+
+#: main.php:2058
+msgid "Only administrators may add scripts to individual posts/pages."
+msgstr ""
+
+#: main.php:2065
+msgid "Body Classes"
+msgstr ""
+
+#: main.php:2069 main.php:2082
+msgid "Standard:"
+msgstr ""
+
+#: main.php:2078
+msgid "Post Classes"
+msgstr ""
+
+#: main.php:2090
+msgid ""
+"These <strong>space separated</strong> class names will be added to the "
+"<code>body_class()</code> or <code>post_class()</code> function (provided "
+"your theme uses these functions)."
+msgstr ""
+
+#: main.php:2197
+msgid "Taken from WP Edit Pro individual page styles."
+msgstr ""
+
+#: main.php:2218
+msgid "Taken from WP Edit Pro individual page scripts."
+msgstr ""
+
+#: main.php:2328
+msgid "WP Edit Pro Editor Notes"
+msgstr ""
+
+#: main.php:2340
+msgid ""
+"Use the editor below to store notes for this post/page. This editor is only "
+"visible to site admins."
+msgstr ""
+
+#: main.php:2599
+msgid "These options are post/page specific."
+msgstr ""
+
+#: main.php:2600
+msgid ""
+"They will override corresponding global options set on the admin WP Edit Pro "
+"settings page."
+msgstr ""
+
+#: main.php:2640
+#, php-format
+msgid ""
+"Deactivated. If required, please activate via the <a href=\"%1$s\">admin "
+"settings page</a>."
+msgstr ""
+
+#: main.php:2827
+msgid ""
+"There is a new version of WP Edit Pro, but it appears the yearly updates "
+"have expired."
+msgstr ""
+
+#: main.php:2829
+msgid ""
+"Please <a target=\"_blank\" href=\"https://wpeditpro.com/contact/\">Contact "
+"Us</a> or visit the <a href=\"https://wpeditpro.com/buy-now/\" target="
+"\"_blank\">Purchase Page</a> if you would like to add another year of plugin "
+"updates."
+msgstr ""
+
+#: main.php:2850
+msgid ""
+"Plugin Updates Expired. Please renew the license on our <a href=\"https://"
+"wpeditpro.com/buy-now\" target=\"_blank\">Website</a>."
+msgstr ""
+
+#: tmce_plugins/advhr/advhr.php:29
+msgid "Width"
+msgstr ""
+
+#: tmce_plugins/advhr/advhr.php:39
+msgid "Height"
+msgstr ""
+
+#: tmce_plugins/advhr/advhr.php:41
+msgid "Normal"
+msgstr ""
+
+#: tmce_plugins/advhr/advhr.php:50
+msgid "No Shade"
+msgstr ""
+
+#: tmce_plugins/advhr/advhr.php:55 tmce_plugins/advlink/advlink.php:196
+#: tmce_plugins/codemagic/codemagic.php:60
+msgid "Insert and Close"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:63
+msgid "Attributes"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:64
+msgid "Margin"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:65
+msgid "Padding"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:66
+msgid "Border"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:67 tmce_plugins/advlink/advlink.php:31
+msgid "Events"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:74
+msgid "Image Source"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:78
+msgid "Image ID"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:82
+msgid "Image Class"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:86
+msgid "Image Title"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:90
+msgid "Image Alt"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:94
+msgid "Image Width"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:95
+msgid "Original Width"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:98
+msgid "Image Height"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:99
+msgid "Original Height"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:103
+msgid "Maintain Proportions"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:113
+msgid "Margin Top"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:118
+msgid "Margin Right"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:123
+msgid "Margin Bottom"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:128
+msgid "Margin Left"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:140
+msgid "Padding Top"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:145
+msgid "Padding Right"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:150
+msgid "Padding Bottom"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:155
+msgid "Padding Left"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:178
+msgid "Solid"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:179
+msgid "Dotted"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:180
+msgid "Dashed"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:181
+msgid "Double"
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:191
+msgid ""
+"Settting the border to <strong>0px</strong> will remove the border from the "
+"image."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:248
+msgid ""
+"HTML 4 added the ability to let events trigger actions in a browser, like "
+"starting a JavaScript when a user clicks on an element."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:251
+#, php-format
+msgid ""
+"To learn more about programming events, please visit this <a href=\"%s\" "
+"target=\"_blank\">JavaScript</a> tutorial."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:254
+#, php-format
+msgid ""
+"There is also a great <a href=\"%s\" target=\"_blank\">Reference</a> "
+"describing each javascript event.."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:257
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Practice</a> with a DEMO using the onclick "
+"event."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:260
+msgid ""
+"Note: The javascript events are wrapped with double quotation marks. This "
+"means single quotes must be used in the input fields to the left; or the "
+"double quote (if used) must be properly escaped."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:263
+#, php-format
+msgid ""
+"Note: If using external scripts, and calling the function names from these "
+"events, it is recommended to add the additional scripts using a WordPress "
+"plugin such as <a href=\"%s\" target=\"_blank\">Scripts and Styles</a>."
+msgstr ""
+
+#: tmce_plugins/advimage/advimage.php:272
+msgid "Insert / Update"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:30
+msgid "Main"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:42
+msgid "Enter a URL for this link."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:42
+msgid "Link Url"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:49
+msgid "Enter a Title for this link."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:49
+msgid "Link Title"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:56
+msgid "Enter an ID for this link."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:63
+msgid "Enter space separated class names for this link."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:70
+msgid "Enter custom css for this link."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:70
+msgid "Style"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:77
+msgid "Target"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:80
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:31
+msgid "Select..."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:90
+msgid "NoFollow"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:92
+msgid "Off"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:100
+msgid "Or link to existing content"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:105
+msgid "Sorting"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:110 tmce_plugins/advlink/advlink.php:112
+#: tmce_plugins/advlink/advlink.php:114
+msgid "Select"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:110 tmce_plugins/advlink/advlink.php:112
+#: tmce_plugins/advlink/advlink.php:114
+msgid "ASC"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:110 tmce_plugins/advlink/advlink.php:112
+#: tmce_plugins/advlink/advlink.php:114
+msgid "DESC"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:118 tmce_plugins/codemagic/codemagic.php:50
+#: tmce_plugins/codemagic/codemagic.php:52
+#: tmce_plugins/flickrImages/flickrImages.php:49
+#: tmce_plugins/youTube3/youTube.php:42 tmce_plugins/youTube3/youTube.php:49
+msgid "Search"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:128
+msgid "Results"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:137
+msgid ""
+"Events can be used to perform a javascript function at a specified time (or "
+"event). This may include when a viewer clicks a link; or when a viewer "
+"hovers over the link with the mouse."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:138
+msgid "For more on javascript events; please visit the following resources:"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:139
+msgid "Javascript Events"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:140
+msgid "Understanding Javascript Event Handlers"
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:147
+msgid "Fires on a mouse click on the element."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:154
+msgid "Fires on a mouse double-click on the element."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:161
+msgid "Fires when a mouse button is pressed down on an element."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:168
+msgid "Fires when the mouse pointer moves out of an element."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:175
+msgid "Fires when the mouse pointer moves over an element."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:182
+msgid "Fires when a mouse button is released over an element."
+msgstr ""
+
+#: tmce_plugins/advlink/advlink.php:191
+msgid ""
+"<strong>NOTE:</strong> It may be necessary to use the WP Edit Pro "
+"\"Configuration\" tab to set the <strong>valid_elements</strong> setting to "
+"<strong>*[*]</strong>; which will allow the events to be preserved in the "
+"editor when switching views and saving."
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:35
+msgid "Wrap text"
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:36
+msgid "Auto completion"
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:37
+msgid "Highlight Code"
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:44
+msgid "Search/Replace"
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:45
+msgid "Format HTML Code"
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:45
+msgid "Reformat"
+msgstr ""
+
+#: tmce_plugins/codemagic/codemagic.php:51
+#: tmce_plugins/codemagic/codemagic.php:53
+msgid "Replace"
+msgstr ""
+
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:29
+msgid "Select number of columns"
+msgstr ""
+
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:32
+msgid "Two"
+msgstr ""
+
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:33
+msgid "Three"
+msgstr ""
+
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:34
+msgid "Four"
+msgstr ""
+
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:35
+msgid "Five"
+msgstr ""
+
+#: tmce_plugins/columnShortcodes/columnShortcodes.php:36
+msgid "Six"
+msgstr ""
+
+#: tmce_plugins/flickrImages/flickrImages.php:46
+msgid "Enter search keywords."
+msgstr ""
+
+#: tmce_plugins/flickrImages/flickrImages.php:56
+msgid "Page"
+msgstr ""
+
+#: tmce_plugins/flickrImages/flickrImages.php:56
+msgid "of"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:23
+msgid "YouTube Search"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:43
+msgid "Options"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:48
+msgid "Enter a Search Term:"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:53
+msgid "Search Results"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:55
+msgid ""
+"Results will be displayed here.  Click a video thumbnail to load the video "
+"into the Preview area."
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:57
+msgid "Previous Page"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:57
+msgid "Next Page"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:62
+msgid ""
+"Once a video is loaded here; the video may be inserted, or additional "
+"options may be set."
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:73 tmce_plugins/youTube3/youTube.php:162
+msgid "Insert Video"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:74
+msgid "Set Video Options"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:82
+msgid ""
+"Here, additional player options can be configured. Please refer to the <a "
+"target=\"_blank\" href=\"https://developers.google.com/youtube/"
+"player_parameters\">YouTube API Paramaters List</a> for more information."
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:84
+msgid "width"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:86
+msgid "height"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:91
+msgid "autohide"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:97
+msgid "autoplay"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:103
+msgid "cc_load_policy"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:109
+msgid "color"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:115
+msgid "disablekb"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:121
+msgid "loop"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:127
+msgid "modestbranding"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:133
+msgid "rel"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:139
+msgid "showinfo"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:140
+msgid "no"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:141
+msgid "yes"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:145
+msgid "theme"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:146
+msgid "dark"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:147
+msgid "light"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:154
+msgid "start"
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:155
+msgid "Enter number of seconds from beginning to start."
+msgstr ""
+
+#: tmce_plugins/youTube3/youTube.php:163
+msgid "Back to Search"
+msgstr ""

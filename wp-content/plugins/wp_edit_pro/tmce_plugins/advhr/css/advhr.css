@@ -1,0 +1,22 @@
+.btn-primary, .btn-default {
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+}
+.btn-primary:hover, .btn-default:hover {
+	cursor: pointer;
+}
+.btn-primary {
+	background-image: linear-gradient(to bottom, #428BCA 0px, #3071A9 100%);
+	background-repeat: repeat-x;
+	border-color: #2D6CA2;
+	color: #FFF;
+	padding: 5px 20px;
+}
+.btn-default {
+	background-image: linear-gradient(to bottom, #FFFFFF 0px, #E6E6E6 100%);
+	background-repeat: repeat-x;
+	border-color: #CCCCCC;
+	text-shadow: 0 1px 0 #FFFFFF;
+	padding: 5px 15px;
+}

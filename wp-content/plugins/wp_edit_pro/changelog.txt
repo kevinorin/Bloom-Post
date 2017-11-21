@@ -1,0 +1,109 @@
+= 4.4.2 =
+* 09/11/2016
+
+* Fixed advanced insert/edit link button; linking to existing content.
+* Fixed image map javascript issue.
+* The image map plugin may become deprecated soon. This is a HUGE project; and will take some time to update.  It is possible this button may become unavailable for a few versions.  All previously created image maps will still function correctly.
+
+= 4.4.1 =
+* 09/07/2016
+
+* Added image map javascript file (somehow overlooked).
+* Added backward compatibility for wp_get_sites().
+* Added two new fields to "About" tab; regarding network activation status.
+* Fixed custom styles formats array sort function (for PHP 5.2 backwards compatibility).  Also added strtolower() function for better comparison.
+* Moved creation of upload directories to plugin_activate() hook; from the admin_init() hook.  Prevents this check from running on every page load.
+
+= 4.4 =
+* 09/03/16
+
+* Fixed various bugs in custom fonts and custom styles.
+* Fixed various bugs in network administration mode.
+* Fixed strict standards error on wp_widget_rss_output() function.
+* Updated Snidget network administration.
+* Updated file manager to 9.10.2.
+* Removed classes and id's (javascript issues; will update in future release).
+* Removed admin links (useless).
+
+= 4.3.2 =
+* 04/12/2016
+
+* Fixed license update notice when not set previously in database.
+* Fixed insert date/time image not loading properly (after update to WordPress 4.5).
+* Added option to insert YouTube videos as objects (rather than iframes).
+
+= 4.3.1 =
+* 03/24/16
+
+* Fixed codemagic and columnshortcodes button showing "Headers already sent".
+* Fixed license extension reminder page link.
+
+= 4.3 =
+* 02/16/16
+
+* Added jquery confirm plugin to replace all dialog notices.
+* Added additional functionality to enable/disable the wpautop filter on all posts/pages.
+* Added option to disable WP Edit Pro editor from posts or pages; independently (Editor tab).
+* Added editor notes section ("Posts" tab); which adds an editor to posts/pages (only visible to admins) for notekeeping.
+* Updated Google Fonts wp error code. Prevents fatal error from occurring if url is not resolved properly.
+* Updated deprecated function "get_currentuserinfo" to "wp_get_current_user()".
+* Updated file manager to version 9.9.7 (will be released independently in a few days).
+* Fixed snidget script loading on all admin pages (when snidgets enabled).
+* Fixed custom fonts stylesheet regeneration when a font is deleted (fixed console warning).
+* Adjusted Convert Options functionality to convert options from WP Edit (Free) to WP Edit Pro.
+* Began tedious task of updating all button language files; allowing every button addon to be translated. This will take a few version releases to complete.
+
+= 4.2 =
+* 01/23/16
+
+* Added custom fonts back into plugin.
+* Added Flickr Images search and insert functionality (replaces deprecated Google Images search).
+* Added "Disable wpautop" option back into the plugin.
+* Adjusted profile biography editor code.
+* Adjusted Feedblitz url to recognize https sites.
+* Fixed upload directory creation; now only checks on admin initialization.
+* Fixed custom styles saving apostrophes in title field (fixed slashes showing).
+* Fixed imcompatibility issue with WPML and Revolution Slider.
+* Updated QR widget for PHP 7 class compatibility.
+* Updated language localization code.
+
+= 4.1.2 =
+* 10/25/15
+
+* Adjusted license activation to only require transaction ID.
+* Fixed button loading if plugin had previously been network activated.
+* Added advanced bulleted and numbered lists buttons.
+
+= 4.1.1 =
+* 10/23/15
+
+* Fixed license extension buy now link (admin update notice).
+* Removed custom fonts. A vulnerability was discovered in the script used to upload fonts. A new option will be added in the next release.
+* Removed license check when saving options. This could sometimes cause the plugin license to deactivate even when license was valid.
+* Removed dropbox api key alert.
+
+= 4.1 =
+* 10/05/2015
+
+* Updated singoff option to allow shortcodes inside signoff text.
+* Fixed mkdir error when using File Manager.
+* Added security sanitization to License Page input fields.
+* Added trim, lowercase and replace whitespace to saved input fields on License Page.
+* Fixed Advanced Link button title attribute.
+* Added script version number to comment-reply.js; and moved it from loading in header to loading in footer.
+* Removed http: link (made //) from main_page.js for file uploader.
+
+= 4.0.1 =
+* 08/26/2015
+
+* Fixed warning on User tab (single site installs).
+* Fixed error on Network tab (single site installs).
+* Fixed undefined variable notice ($is_existing_editor).
+* Fixed undefined variable notice ($orig_buttons['toolbarX']).
+* Fixed undefined variable notice ($status) (plugin settings links).
+* Fixed undefined variable notice ($value) (single site network dropdown selector).
+* Fixed foreach array invalid argument ($plugin_opts) (main page).
+* Fixed ksort not an array notice (main.php) (capabilities dropdown).
+* Fixed array_scan error when using custom fonts.
+* Fixed plugin so loads default values correctly when database option does not exist.
+* Updated "Notes" tab to use the "wp_remote_get()" function instead of the "file_get_contents()" function.

@@ -1,0 +1,43 @@
+/*
+* Plugin styles
+*/
+.fcbk_share {
+	clear: both;
+	line-height: 1;
+}
+.fcbk_share * {
+    vertical-align: top;
+}
+.fcbk_button {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.fcbk_button a {
+	display: block;
+	border-bottom: 0px !important;
+	box-shadow: none !important;
+}
+.fcbk_button a:hover {
+	opacity: 0.9;
+}
+.fcbk_like {
+	display: inline-block;
+	position: relative;
+}
+.fb_edge_widget_with_comment span {
+	width: 450px !important;
+}
+.fcbk_like iframe {
+	max-width: 450px;
+}
+.fcbk_button a img {
+	display: inline-block !important;
+}
+.fcbk_share img,
+.fcbk_like .fb_iframe_widget span {
+    vertical-align: top !important;
+}
+.form-table td fieldset.fcbkbttn_layout_option label {
+	display: block;
+}
